@@ -1,0 +1,16 @@
+<div class="series">
+	
+	<h1>My Series</h1>
+
+	<div id="seriesIndex">
+    	<% @series.each do |series| %>
+       		<h2><%= series.title %></h2>
+        	<p><%= link_to 'Show', series %> |
+        	<%= link_to 'Edit', edit_series_path(series) %> |
+        	<%= link_to 'Destroy', series, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+    	<% end %>
+	</div>
+	<br>
+
+	<%= link_to 'New Series', new_series_path %>
+</div>
