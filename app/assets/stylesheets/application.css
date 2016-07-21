@@ -14,11 +14,12 @@
  *= require_self
  */
 
-#myInput {
+.form-group {
 	margin: 0 auto;
 	width: 60%;
 }
 
-.series {
+.series h1 {
 	text-align: center;
 }
+

@@ -10,6 +10,9 @@ class EpisodesController < ApplicationController
   # GET /episodes/1
   # GET /episodes/1.json
   def show
+    @episode = Episode.find(params[:id])
+    @series = @episode.series
+    @season = @episode.season
   end
 
   # GET /episodes/new
@@ -24,8 +27,9 @@ class EpisodesController < ApplicationController
   # POST /episodes
   # POST /episodes.json
   def create
+    @series = Series.find(params[:series_id])
+    @season = Season.find(params[:season_id])
     @episode = Episode.new(episode_params)
-
     respond_to do |format|
       if @episode.save
         format.html { redirect_to @episode, notice: 'Episode was successfully created.' }

@@ -1,8 +1,7 @@
 class Series < ActiveRecord::Base
+	validates :title, uniqueness: true
 
-	def find_series
-    	Kgsearch = Google::Apis::KgsearchV1
-    	service = Kgsearch::KgsearchService.new
-    	Kgsearch.key = 'AIzaSyDoJiOxIjx_e62xUqIaSyLzyf9ZwPUHJxA'
-	end
+	has_many :seasons
+	has_many :episodes, :through => :seasons
+	has_many :genres
 end

@@ -1,14 +1,15 @@
-<p id="notice"><%= notice %></p>
+<h1><%= @series.title %></h1>
 
 <p>
   <strong>Season number:</strong>
   <%= @season.season_number %>
 </p>
 
-<p>
-  <strong>Desription:</strong>
-  <%= @season.desription %>
-</p>
+<% @season.episodes.each do |episode| %>
+	<p><%= episode.title %></p>
+	<p><%= episode.description %></p>
+	<p><%= episode.air_date %></p>
+<% end %>
 
 <%= link_to 'Edit', edit_season_path(@season) %> |
 <%= link_to 'Back', seasons_path %>

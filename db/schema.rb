@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160507232835) do
+ActiveRecord::Schema.define(version: 20160721000735) do
 
   create_table "episodes", force: :cascade do |t|
     t.string   "title"
@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(version: 20160507232835) do
     t.integer  "series_id"
     t.integer  "season_episode_number"
     t.date     "air_date"
+    t.integer  "seasonno"
+    t.string   "url"
   end
 
   add_index "episodes", ["season_id"], name: "index_episodes_on_season_id"
@@ -41,6 +43,7 @@ ActiveRecord::Schema.define(version: 20160507232835) do
     t.datetime "updated_at",    null: false
     t.integer  "series_id"
     t.date     "premiere"
+    t.string   "url"
   end
 
   add_index "seasons", ["series_id"], name: "index_seasons_on_series_id"
@@ -55,8 +58,28 @@ ActiveRecord::Schema.define(version: 20160507232835) do
     t.string   "cast"
     t.string   "creator"
     t.integer  "genre_id"
+    t.string   "url"
+    t.integer  "seasonsno"
   end
 
   add_index "series", ["genre_id"], name: "index_series_on_genre_id"
+
+  create_table "users", force: :cascade do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
 
 end

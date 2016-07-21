@@ -15,7 +15,29 @@
       <!-- knowledge graph search widget -->
       <div class="form-group">
         <%= f.label :title, 'Find a Series' %><br>
-        <%= f.text_field :title, class: 'form-control', id: 'myInput' %>
+        <%= f.text_field :title, class: 'form-control' %>
       </div>
-      <%= f.submit  id: 'submit' %>
+      <div class="form-group">
+        <%= f.label :description %><br>
+        <%= f.text_field :description, class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= f.label :network %><br>
+        <%= f.text_field :network, class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= f.label :premiere, 'Premiere Date' %><br>
+        <%= f.text_field :premiere, class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= f.label :cast %><br>
+        <%= f.text_field :cast, class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= f.label :creator %><br>
+        <%= f.text_field :creator, class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= f.submit  id: 'submit' %>
+      </div>
   <% end %>

@@ -1,13 +1,15 @@
 <div class="series">
 	
-	<h1>My Series</h1>
+	<h1>Series</h1>
 
-	<div id="seriesIndex">
+	<div class="row" id="seriesIndex">
     	<% @series.each do |series| %>
-       		<h2><%= series.title %></h2>
-        	<p><%= link_to 'Show', series %> |
-        	<%= link_to 'Edit', edit_series_path(series) %> |
-        	<%= link_to 'Destroy', series, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+    		<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesTitle">
+       			<h3><%= link_to(series.title, series) %></h3>
+        		<p><%= link_to 'Show', series %> |
+        		<%= link_to 'Edit', edit_series_path(series) %> |
+        		<%= link_to 'Destroy', series, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+        	</div>
     	<% end %>
 	</div>
 	<br>

@@ -10,6 +10,7 @@ class SeriesController < ApplicationController
   # GET /series/1
   # GET /series/1.json
   def show
+     @series = Series.find_by_id(params[:id])
   end
 
   # GET /series/new
@@ -19,6 +20,7 @@ class SeriesController < ApplicationController
 
   # GET /series/1/edit
   def edit
+    @series = Series.find_by_id(params[:id])
   end
 
   # POST /series
@@ -40,6 +42,7 @@ class SeriesController < ApplicationController
   # PATCH/PUT /series/1
   # PATCH/PUT /series/1.json
   def update
+    @series = Series.find_by_id(params[:id])
     respond_to do |format|
       if @series.update(series_params)
         format.html { redirect_to @series, notice: 'Series was successfully updated.' }
@@ -69,6 +72,6 @@ class SeriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def series_params
-      params.require(:series).permit(:title, :description, :network)
+      params.require(:series).permit(:title, :description, :network, :premiere, :cast, :creator, :genre_id)
     end
 end

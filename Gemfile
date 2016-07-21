@@ -47,4 +47,6 @@ end
 
 gem 'rest-client'
 
-gem 'google-api-client', '~>0.9', require: 'google/apis/kgsearch_v1'
+gem 'nokogiri'
+
+gem 'devise'
