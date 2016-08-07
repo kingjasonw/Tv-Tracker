@@ -1,42 +1,49 @@
 <div class="seriesInfo">
-<h1>
-  <%= @series.title %>
-</h1>
-<div id="seriesDescription">
-	<p><%= @series.description %></p>
-</div>
-<div id="extraInfo">
-	<p><strong>Created by:</strong> <%= @series.creator %></p>
-	<p><strong>Premiere:</strong> <%= @series.premiere %></p>
-	<p><strong>Cast:</strong> <%= @series.cast %></p>
-</div>
-
-<div class="seasonList">
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-		<% @series.seasons.each do |season| %>
-
-			<div class="panel panel-default">
-			    <div class="panel-heading" role="tab" id="heading<%= season.season_number %>">
-			      <h4 class="panel-title">
-			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<%= season.season_number %>" aria-expanded="false" aria-controls="collapse<%= season.season_number %>">
-			          Season <%= season.season_number %>
-			        </a>
-			      </h4>
-			    </div>
-			    <div id="collapse<%= season.season_number %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<%= season.season_number %>">
-			      <div class="panel-body">
-			      	<% season.episodes.each do |episode| %>
-						<h4><%= episode.title %></h4>
-						<p><%= episode.description %></p>
-						<p><strong>Air Date:</strong> <%= episode.air_date %></p>
-					<% end %>
-			      </div>
-				</div>
-		  	</div>
+	<h1>
+	  <%= @series.title %>
+	</h1>
+	<div class="addSeries">
+		<% if @list.exists? %>
+		<%= button_to "Untrack", untrack_series_path(@series), :method => "delete", class: "btn btn-primary addSeries" %>
+		<% else %>
+			<%= button_to "Track", track_series_path(@series), :method => "post", class: "btn btn-primary addSeries" %>
 		<% end %>
 	</div>
-</div>
+	<div id="seriesDescription">
+		<p><%= @series.description %></p>
+	</div>
+	<div id="extraInfo">
+		<p><strong>Created by:</strong> <%= @series.creator %></p>
+		<p><strong>Premiere:</strong> <%= @series.premiere %></p>
+		<p><strong>Cast:</strong> <%= @series.cast %></p>
+	</div>
 
+	<div class="seasonList">
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			<% @series.seasons.each do |season| %>
+
+				<div class="panel panel-default">
+				    <div class="panel-heading" role="tab" id="heading<%= season.season_number %>">
+				      <h4 class="panel-title">
+				        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<%= season.season_number %>" aria-expanded="false" aria-controls="collapse<%= season.season_number %>">
+				          Season <%= season.season_number %>
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapse<%= season.season_number %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<%= season.season_number %>">
+				      <div class="panel-body">
+				      	<% season.episodes.each do |episode| %>
+							<h4><%= episode.title %></h4>
+							<p><%= episode.description %></p>
+							<p><strong>Air Date:</strong> <%= episode.air_date %></p>
+						<% end %>
+				      </div>
+					</div>
+			  	</div>
+			<% end %>
+		</div>
+	</div>
+</div>
 <%= link_to 'Edit', edit_series_path(@series) %> |
 <%= link_to 'Back', series_index_path %>
 

@@ -1,0 +1,15 @@
+<h1>Listing Lists</h1>
+
+
+    <% current_user.series.each do |series| %>
+
+	    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesTitle">
+	        <h3><%= link_to(series.title, series) %></h3>
+	    </div>
+      
+    <% end %>
+  
+<br>
+
+
+<%= link_to 'New List', new_list_path %>

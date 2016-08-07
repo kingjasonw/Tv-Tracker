@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160721000735) do
+ActiveRecord::Schema.define(version: 20160802015140) do
 
   create_table "episodes", force: :cascade do |t|
     t.string   "title"
@@ -35,6 +35,14 @@ ActiveRecord::Schema.define(version: 20160721000735) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  create_table "lists", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "series_id"
+  end
+
+  add_index "lists", ["series_id"], name: "index_lists_on_series_id"
+  add_index "lists", ["user_id"], name: "index_lists_on_user_id"
 
   create_table "seasons", force: :cascade do |t|
     t.integer  "season_number"
@@ -77,6 +85,7 @@ ActiveRecord::Schema.define(version: 20160721000735) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.string   "name"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

@@ -1,6 +1,28 @@
 class SeriesController < ApplicationController
   before_action :set_series, only: [:show, :edit, :update, :destroy]
 
+  def track
+    @series = Series.find(params[:id])
+    @series.users << current_user
+    respond_to do |format|
+        format.html { redirect_to series_url }
+    end
+  rescue => e 
+      flash[:notice] = "You're already tracking that series!"
+      redirect_to(:action => 'show')
+  end
+
+  def untrack
+    @series = Series.find(params[:id])
+    current_user.lists.find_by_series_id(@series.id).destroy if current_user
+    respond_to do |format|
+      format.html { redirect_to series_index_url}
+    end
+    rescue => e 
+      flash[:notice] = "You aren't tracking that series!"
+      redirect_to(:action => 'show')
+  end
+
   # GET /series
   # GET /series.json
   def index
@@ -11,6 +33,7 @@ class SeriesController < ApplicationController
   # GET /series/1.json
   def show
      @series = Series.find_by_id(params[:id])
+     @list = List.where(user_id: current_user.id, series_id: @series.id)
   end
 
   # GET /series/new

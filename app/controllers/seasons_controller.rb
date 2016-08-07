@@ -11,8 +11,6 @@ class SeasonsController < ApplicationController
   # GET /seasons/1.json
   def show
     @season = Season.find(params[:id])
-    @series = @season.series
-    @episode = @season.episode
   end
 
   # GET /seasons/new

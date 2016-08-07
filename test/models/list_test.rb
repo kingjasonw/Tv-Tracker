@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class KnowledgeGraphTest < ActiveSupport::TestCase
+class ListTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

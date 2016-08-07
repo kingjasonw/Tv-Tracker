@@ -57,3 +57,5 @@ gem 'rest-client'
 gem 'nokogiri'
 
 gem 'devise'
+
+gem 'searchkick'

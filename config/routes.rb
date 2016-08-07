@@ -1,9 +1,18 @@
 Rails.application.routes.draw do
-  devise_for :users
+
+  resources :lists 
+  devise_for :users, controllers: { registrations: "registrations" }
   resources :genres
   resources :episodes
   resources :seasons
-  resources :series
+  resources :series do 
+    member do 
+      post 'track'
+      delete 'untrack'
+    end
+  end
+  
+  
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
