@@ -7,5 +7,9 @@ class Series < ActiveRecord::Base
 
 	has_many :lists, :dependent => :destroy 
 	has_many :users, :through => :lists
+
+	def self.search(term)
+		where('LOWER(title) LIKE :term', term: "%#{term.downcase}%")
+	end
 	
 end

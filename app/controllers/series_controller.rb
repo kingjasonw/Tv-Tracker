@@ -1,5 +1,6 @@
 class SeriesController < ApplicationController
   before_action :set_series, only: [:show, :edit, :update, :destroy]
+  respond_to :json, :html
 
   def track
     @series = Series.find(params[:id])
@@ -7,7 +8,7 @@ class SeriesController < ApplicationController
     respond_to do |format|
         format.html { redirect_to series_url }
     end
-  rescue => e 
+    rescue => e 
       flash[:notice] = "You're already tracking that series!"
       redirect_to(:action => 'show')
   end
@@ -26,8 +27,29 @@ class SeriesController < ApplicationController
   # GET /series
   # GET /series.json
   def index
-    @series = Series.all
+    if params[:q]
+      search_term = params[:q]
+      if Rails.env.development?
+        @series = Series.where("title LIKE ?", "%#{search_term}%")
+      else
+        @series = Series.where("title ilike ?", "%#{search_term}%")
+      #return our filtered list here
+    end
+    else
+      @series = Series.all
+    end
+    respond_with @series
   end
+
+  def autocomplete
+    @series = Series.order(:title).where("title LIKE ?", "%#{params[:term]}%")
+    respond_to do |format|
+      format.html
+      format.json { 
+        render json: @series.map(&:title).to_json
+      }
+  end
+end
 
   # GET /series/1
   # GET /series/1.json

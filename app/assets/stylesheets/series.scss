@@ -4,6 +4,17 @@
 
 /* series index */
 
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  * html .ui-autocomplete {
+    height: 100px;
+  }
+
+
 .series {
 	text-align: center;
 	width: 60%;

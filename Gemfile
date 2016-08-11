@@ -58,4 +58,6 @@ gem 'nokogiri'
 
 gem 'devise'
 
-gem 'searchkick'
+gem 'jquery-ui-rails'
+
+gem 'rails4-autocomplete'

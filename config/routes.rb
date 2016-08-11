@@ -10,6 +10,9 @@ Rails.application.routes.draw do
       post 'track'
       delete 'untrack'
     end
+    collection do 
+      get 'autocomplete'
+    end
   end
   
   

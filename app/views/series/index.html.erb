@@ -1,7 +1,15 @@
 <div class="series">
 	
 	<h1>Series</h1>
-
+	
+	<div class="form-group">
+    	<%= form_tag("/series", method: "get", class: 'navbar-form', id: "search-form") do %>
+        	<%= text_field_tag :q, "", class: 'form-control search-query', id: "navbar-search-input", placeholder:'Search' %>
+            <%= button_tag '', class: 'btn btn-default' do %>
+            	<span class="glyphicon glyphicon-search"></span>
+        	<% end %>
+        <% end %>
+    </div>
 	<div class="row" id="seriesIndex">
     	<% @series.each do |series| %>
     		<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesTitle">
@@ -13,3 +21,5 @@
 
 	<%= link_to 'New Series', new_series_path %>
 </div>
+
+
