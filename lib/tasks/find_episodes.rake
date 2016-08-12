@@ -14,7 +14,11 @@ task :fetch_episodes => :environment do
 			description = episode.css('div.item_description').text
 			air_date = episode.css('div.airdate').text
 			seasonep = episode.css('div.hover-over-image div').text
-			Episode.create(:title => title, :description => description, :air_date => air_date, :episode_number => seasonep, :url => url, :season_id => @season.id, :series_id => @season.series_id)
+			if description.include? "add a plot"
+				break
+			else
+				Episode.create(:title => title, :description => description, :air_date => air_date, :episode_number => seasonep, :url => url, :season_id => @season.id, :series_id => @season.series_id)
+			end
 		end
 	end
 end

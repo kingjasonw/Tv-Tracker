@@ -12,7 +12,9 @@ task :fetch_epinfo => :environment do
 			title = episode.css('div.info a[itemprop = "name"]').text
 			@episode = Episode.find_by title: title
 			description = episode.css('div.item_description').text
-			if description != @episode.description
+			if description.include? "add a plot"
+				@episode.destroy
+			elsif description != @episode.description
 				@episode.update_attribute(:description, description)
 			end
 			air_date = episode.css('div.airdate').text
