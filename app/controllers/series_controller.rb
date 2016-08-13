@@ -55,7 +55,7 @@ end
   # GET /series/1.json
   def show
      @series = Series.find_by_id(params[:id])
-     if current_user && user.signed_in? 
+     if current_user && current_user.signed_in? 
       @list = List.where(user_id: current_user.id, series_id: @series.id)
     else
     end
