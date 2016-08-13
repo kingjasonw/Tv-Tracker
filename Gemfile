@@ -61,3 +61,5 @@ gem 'devise'
 gem 'jquery-ui-rails'
 
 gem 'yaml_db'
+
+gem 'seed_dump'

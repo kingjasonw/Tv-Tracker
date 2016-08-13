@@ -2430,763 +2430,6 @@ seasons:
     - "/title/tt1830617/episodes?season=1&ref_=tt_eps_sn_1"
 
 ---
-series:
-  columns:
-  - id
-  - title
-  - created_at
-  - updated_at
-  - description
-  - network
-  - premiere
-  - cast
-  - creator
-  - genre_id
-  - url
-  - seasonsno
-  records: 
-  - - 1
-    - Game of Thrones
-    - '2016-05-14 19:53:34.312351'
-    - '2016-05-14 19:54:34.303079'
-    - "\n                    While a civil war brews between several noble families
-      in Westeros, the children of the former rulers of the land attempt to rise up
-      to power. Meanwhile a forgotten race, bent on destruction, plans to return after
-      thousands of years in the North.\n            "
-    - 
-    - '2011-04-17'
-    - "\nEmilia Clarke,             \nPeter Dinklage,             \nKit Harington
-      \           "
-    - "\nDavid Benioff,             \nD.B. Weiss            "
-    - 
-    - "/title/tt0944947/"
-    - 
-  - - 2
-    - The Flash
-    - '2016-05-14 19:53:34.320908'
-    - '2016-08-11 22:48:35.207931'
-    - "\n                    Barry Allen wakes up 9 months after he was struck by
-      lightning and discovers that the bolt gave him the power of super speed. With
-      his new team and powers, Barry becomes \"The Flash\" and fights crime in Central
-      City.\n            "
-    - 
-    - '2014-10-07'
-    - "\nGrant Gustin,             \nCandice Patton,             \nDanielle Panabaker
-      \           "
-    - ''
-    - 
-    - "/title/tt3107288/"
-    - 
-  - - 3
-    - Vikings
-    - '2016-05-14 19:53:34.322986'
-    - '2016-08-11 22:48:35.893646'
-    - "\n                    The world of the Vikings is brought to life through the
-      journey of Ragnar Lothbrok, the first Viking to emerge from Norse legend and
-      onto the pages of history - a man on the edge of myth.\n            "
-    - 
-    - '2013-03-03'
-    - "\nTravis Fimmel,             \nClive Standen,             \nGustaf Skarsgård
-      \           "
-    - "\nMichael Hirst            "
-    - 
-    - "/title/tt2306299/"
-    - 
-  - - 4
-    - Arrow
-    - '2016-05-14 19:53:34.324957'
-    - '2016-05-14 19:54:35.563503'
-    - "\n                    Spoiled billionaire playboy Oliver Queen is missing and
-      presumed dead when his yacht is lost at sea. He returns five years later a changed
-      man, determined to clean up the city as a hooded vigilante armed with a bow.\n
-      \           "
-    - 
-    - '2012-10-10'
-    - "\nStephen Amell,             \nKatie Cassidy,             \nDavid Ramsey            "
-    - "\nGreg Berlanti,             \nMarc Guggenheim,             \nAndrew Kreisberg
-      \           "
-    - 
-    - "/title/tt2193021/"
-    - 
-  - - 6
-    - The Walking Dead
-    - '2016-05-14 19:53:34.329081'
-    - '2016-05-14 19:54:36.824304'
-    - "\n                    Sheriff Deputy Rick Grimes leads a group of survivors
-      in a world overrun by the walking dead. Fighting the dead, fearing the living.\n
-      \           "
-    - 
-    - '2010-10-31'
-    - "\nAndrew Lincoln,             \nJon Bernthal,             \nSarah Wayne Callies
-      \           "
-    - "\nFrank Darabont            "
-    - 
-    - "/title/tt1520211/"
-    - 
-  - - 7
-    - The Blacklist
-    - '2016-05-14 19:53:34.331147'
-    - '2016-05-14 19:54:37.244223'
-    - "\n                    A new FBI profiler, Elizabeth Keen, has her entire life
-      uprooted when a mysterious criminal, Raymond Reddington, who has eluded capture
-      for decades, turns himself in and insists on speaking only to her.\n            "
-    - 
-    - '2013-09-23'
-    - "\nJames Spader,             \nMegan Boone,             \nDiego Klattenhoff
-      \           "
-    - "\nJon Bokenkamp            "
-    - 
-    - "/title/tt2741602/"
-    - 
-  - - 8
-    - Penny Dreadful
-    - '2016-05-14 19:53:34.333138'
-    - '2016-05-14 19:54:37.730861'
-    - "\n                    Explorer Sir Malcolm Murray, American gunslinger Ethan
-      Chandler, scientist Victor Frankenstein and medium Vanessa Ives unite to combat
-      supernatural threats in Victorian London.\n            "
-    - 
-    - '2014-04-28'
-    - "\nJosh Hartnett,             \nTimothy Dalton,             \nEva Green            "
-    - "\nJohn Logan            "
-    - 
-    - "/title/tt2628232/"
-    - 
-  - - 9
-    - Supernatural
-    - '2016-05-14 19:53:34.335167'
-    - '2016-05-14 19:54:38.206561'
-    - "\n                    Two brothers follow their father's footsteps as \"hunters\"
-      fighting evil supernatural beings of many kinds including monsters, demons,
-      and gods that roam the earth.\n            "
-    - 
-    - '2005-09-13'
-    - "\nJared Padalecki,             \nJensen Ackles,             \nJim Beaver            "
-    - "\nEric Kripke            "
-    - 
-    - "/title/tt0460681/"
-    - 
-  - - 10
-    - Grey's Anatomy
-    - '2016-05-14 19:53:34.337122'
-    - '2016-05-14 19:54:38.646899'
-    - "\n                    A drama centered on the personal and professional lives
-      of five surgical interns and their supervisors.\n            "
-    - 
-    - '2005-03-27'
-    - "\nEllen Pompeo,             \nJustin Chambers,             \nChandra Wilson
-      \           "
-    - "\nShonda Rhimes            "
-    - 
-    - "/title/tt0413573/"
-    - 
-  - - 11
-    - The 100
-    - '2016-05-14 19:53:34.339336'
-    - '2016-05-14 19:54:39.254027'
-    - "\n                    Set 97 years after a nuclear war has destroyed civilization,
-      when a spaceship housing humanity's lone survivors sends 100 juvenile delinquents
-      back to Earth in hopes of possibly re-populating the planet.\n            "
-    - 
-    - '2014-03-19'
-    - "\nEliza Taylor,             \nEli Goree,             \nThomas McDonell            "
-    - "\nJason Rothenberg            "
-    - 
-    - "/title/tt2661044/"
-    - 
-  - - 12
-    - Outlander
-    - '2016-05-14 19:53:34.341456'
-    - '2016-05-14 19:54:39.602695'
-    - "\n                    Follows the story of Claire Randall, a married combat
-      nurse from 1945 who is mysteriously swept back in time to 1743, where she is
-      immediately thrown into an unknown world where her life is...\n                    See
-      full summary »\n            "
-    - 
-    - '2014-08-09'
-    - "\nCaitriona Balfe,             \nSam Heughan,             \nDuncan Lacroix
-      \           "
-    - "\nRonald D. Moore            "
-    - 
-    - "/title/tt3006802/"
-    - 
-  - - 13
-    - Once Upon a Time
-    - '2016-05-14 19:53:34.343491'
-    - '2016-08-11 22:48:41.731247'
-    - "\n                    A young woman with a troubled past is drawn to a small
-      town in Maine where fairy tales are to be believed.\n            "
-    - 
-    - '2011-10-23'
-    - "\nJennifer Morrison,             \nLana Parrilla,             \nJared Gilmore
-      \           "
-    - "\nAdam Horowitz,             \nEdward Kitsis            "
-    - 
-    - "/title/tt1843230/"
-    - 
-  - - 14
-    - The Big Bang Theory
-    - '2016-05-14 19:53:34.345502'
-    - '2016-05-14 19:54:40.504108'
-    - "\n                    A woman who moves into an apartment across the hall from
-      two brilliant but socially awkward physicists shows them how little they know
-      about life outside of the laboratory.\n            "
-    - 
-    - '2006-05-01'
-    - "\nJohnny Galecki,             \nJim Parsons,             \nKaley Cuoco            "
-    - "\nChuck Lorre,             \nBill Prady            "
-    - 
-    - "/title/tt0898266/"
-    - 
-  - - 15
-    - Gotham
-    - '2016-05-14 19:53:34.347556'
-    - '2016-05-14 19:54:40.997268'
-    - "\n                    The story behind Detective James Gordon's rise to prominence
-      in Gotham City in the years before Batman's arrival.\n            "
-    - 
-    - 
-    - "\nBen McKenzie,             \nJada Pinkett Smith,             \nDonal Logue
-      \           "
-    - "\nBruno Heller            "
-    - 
-    - "/title/tt3749900/"
-    - 
-  - - 16
-    - Daredevil
-    - '2016-05-14 19:53:34.349760'
-    - '2016-08-11 22:48:43.881574'
-    - "\n                    Matt Murdock, with his other senses superhumanly enhanced,
-      fights crime as a blind lawyer by day, and vigilante by night.\n            "
-    - 
-    - '2015-04-10'
-    - "\nCharlie Cox,             \nVincent D'Onofrio,             \nDeborah Ann Woll
-      \           "
-    - "\nDrew Goddard            "
-    - 
-    - "/title/tt3322312/"
-    - 
-  - - 17
-    - Agents of S.H.I.E.L.D.
-    - '2016-05-14 19:53:34.351867'
-    - '2016-05-14 19:54:42.099928'
-    - "\n                    The missions of the Strategic Homeland Intervention,
-      Enforcement and Logistics Division.\n            "
-    - 
-    - '2013-09-24'
-    - "\nClark Gregg,             \nMing-Na Wen,             \nBrett Dalton            "
-    - "\nMaurissa Tancharoen,             \nJed Whedon,             \nJoss Whedon
-      \           "
-    - 
-    - "/title/tt2364582/"
-    - 
-  - - 18
-    - Peaky Blinders
-    - '2016-05-14 19:53:34.353868'
-    - '2016-08-11 22:48:45.102218'
-    - "\n                    A gangster family epic set in 1919 Birmingham, England
-      and centered on a gang who sew razor blades in the peaks of their caps, and
-      their fierce boss Tommy Shelby, who means to move up in the world.\n            "
-    - 
-    - 
-    - "\nCillian Murphy,             \nPaul Anderson,             \nJoe Cole            "
-    - "\nSteven Knight            "
-    - 
-    - "/title/tt2442560/"
-    - 
-  - - 19
-    - Person of Interest
-    - '2016-05-14 19:53:34.355855'
-    - '2016-05-14 19:54:42.974990'
-    - "\n                    An ex-assassin and a wealthy programmer save lives via
-      a surveillance AI that sends them the identities of civilians involved in impending
-      crimes. However, the details of the crimes--including the civilians' roles--are
-      left a mystery.\n            "
-    - 
-    - '2011-09-22'
-    - "\nJim Caviezel,             \nTaraji P. Henson,             \nKevin Chapman
-      \           "
-    - "\nJonathan Nolan            "
-    - 
-    - "/title/tt1839578/"
-    - 
-  - - 20
-    - Lucifer
-    - '2016-05-14 19:53:34.357823'
-    - '2016-05-14 19:54:43.573276'
-    - "\n                    Satan takes up residence in Los Angeles.\n            "
-    - 
-    - '2016-01-25'
-    - "\nTom Ellis,             \nLauren German,             \nD.B. Woodside            "
-    - "\nTom Kapinos            "
-    - 
-    - "/title/tt4052886/"
-    - 
-  - - 21
-    - NCIS
-    - '2016-05-14 19:53:34.359900'
-    - '2016-05-14 19:54:44.179143'
-    - "\n                    The cases of the Naval Criminal Investigative Service's
-      Washington DC Major Case Response Team, led by Special Agent Leroy Jethro Gibbs.\n
-      \           "
-    - 
-    - '2003-09-23'
-    - "\nMark Harmon,             \nMichael Weatherly,             \nPauley Perrette
-      \           "
-    - "\nDonald P. Bellisario,             \nDon McGill            "
-    - 
-    - "/title/tt0364845/"
-    - 
-  - - 22
-    - Legends of Tomorrow
-    - '2016-05-14 19:53:34.361915'
-    - '2016-05-14 19:54:44.607801'
-    - "\n                    Focuses on time-traveling rogue Rip Hunter, who has to
-      recruit a rag-tag team of heroes and villains to help prevent an apocalypse
-      that could impact not only Earth, but all of time.\n            "
-    - 
-    - '2016-01-21'
-    - "\nVictor Garber,             \nBrandon Routh,             \nArthur Darvill
-      \           "
-    - "\nGreg Berlanti,             \nMarc Guggenheim,             \nPhil Klemmer
-      \           "
-    - 
-    - "/title/tt4532368/"
-    - 
-  - - 24
-    - Banshee
-    - '2016-05-14 19:53:34.365863'
-    - '2016-05-14 19:54:45.676942'
-    - "\n                    Lucas Hood (Antony Starr), an ex-con and master thief
-      assumes the identity of a murdered sheriff where he continues his criminal activities.
-      His past seems to haunt him by those he betrayed...\n                    See
-      full summary »\n            "
-    - 
-    - '2013-01-11'
-    - "\nAntony Starr,             \nIvana Milicevic,             \nUlrich Thomsen
-      \           "
-    - "\nDavid Schickler,             \nJonathan Tropper            "
-    - 
-    - "/title/tt2017109/"
-    - 
-  - - 25
-    - House of Cards
-    - '2016-05-14 19:53:34.367841'
-    - '2016-05-14 19:54:46.086231'
-    - "\n                    A Congressman works with his equally conniving wife to
-      exact revenge on the people who betrayed him.\n            "
-    - 
-    - '2013-02-01'
-    - "\nKevin Spacey,             \nMichel Gill,             \nRobin Wright            "
-    - ''
-    - 
-    - "/title/tt1856010/"
-    - 
-  - - 26
-    - The Vampire Diaries
-    - '2016-05-14 19:53:34.369962'
-    - '2016-05-14 19:54:47.248548'
-    - "\n                    A teenage girl is torn between two vampire brothers.\n
-      \           "
-    - 
-    - '2009-09-10'
-    - "\nNina Dobrev,             \nPaul Wesley,             \nIan Somerhalder            "
-    - "\nJulie Plec,             \nKevin Williamson            "
-    - 
-    - "/title/tt1405406/"
-    - 
-  - - 27
-    - Criminal Minds
-    - '2016-05-14 19:53:34.372071'
-    - '2016-08-11 22:48:50.014961'
-    - "\n                    The cases of the FBI Behavioral Analysis Unit (BAU),
-      an elite group of profilers who analyze the nation's most dangerous serial killers
-      and individual heinous crimes in an effort to anticipate their next moves before
-      they strike again.\n            "
-    - 
-    - '2005-09-22'
-    - "\nThomas Gibson,             \nMatthew Gray Gubler,             \nKirsten Vangsness
-      \           "
-    - "\nJeff Davis            "
-    - 
-    - "/title/tt0452046/"
-    - 
-  - - 28
-    - Unbreakable Kimmy Schmidt
-    - '2016-05-14 19:53:34.374120'
-    - '2016-05-14 19:54:48.184964'
-    - "\n                    A woman is rescued from a doomsday cult and starts life
-      over again in New York City.\n            "
-    - 
-    - 
-    - "\nEllie Kemper,             \nJane Krakowski,             \nTituss Burgess
-      \           "
-    - "\nRobert Carlock,             \nTina Fey            "
-    - 
-    - "/title/tt3339966/"
-    - 
-  - - 29
-    - New Girl
-    - '2016-05-14 19:53:34.376168'
-    - '2016-05-14 19:54:48.590082'
-    - "\n                    After a bad break-up, Jess, an offbeat young woman, moves
-      into an apartment loft with three single men. Although they find her behavior
-      very unusual, the men support her - most of the time.\n            "
-    - 
-    - '2011-09-20'
-    - "\nZooey Deschanel,             \nJake Johnson,             \nMax Greenfield
-      \           "
-    - "\nElizabeth Meriwether            "
-    - 
-    - "/title/tt1826940/"
-    - 
-  - - 30
-    - Silicon Valley
-    - '2016-05-14 19:53:34.378189'
-    - '2016-05-14 19:54:49.149750'
-    - "\n                    In the high-tech gold rush of modern Silicon Valley,
-      the people most qualified to succeed are the least capable of handling success.
-      A comedy partially inspired by Mike Judge's own ...\n                    See
-      full summary »\n            "
-    - 
-    - '2014-04-06'
-    - "\nThomas Middleditch,             \nT.J. Miller,             \nJosh Brener
-      \           "
-    - "\nJohn Altschuler,             \nMike Judge,             \nDave Krinsky            "
-    - 
-    - "/title/tt2575988/"
-    - 
-  - - 31
-    - Suits
-    - '2016-05-14 19:53:34.380341'
-    - '2016-05-14 19:54:49.549754'
-    - "\n                    On the run from a drug deal gone bad, Mike Ross, a brilliant
-      college-dropout, finds himself a job working with Harvey Specter, one of New
-      York City's best lawyers.\n            "
-    - 
-    - '2011-06-23'
-    - "\nGabriel Macht,             \nPatrick J. Adams,             \nMeghan Markle
-      \           "
-    - "\nAaron Korsh            "
-    - 
-    - "/title/tt1632701/"
-    - 
-  - - 32
-    - Better Call Saul
-    - '2016-05-14 19:53:34.382474'
-    - '2016-08-11 22:48:53.691677'
-    - "\n                    The trials and tribulations of criminal lawyer, Jimmy
-      McGill, in the time leading up to establishing his strip-mall law office in
-      Albuquerque, New Mexico.\n            "
-    - 
-    - '2015-02-08'
-    - "\nBob Odenkirk,             \nJonathan Banks,             \nRhea Seehorn            "
-    - "\nVince Gilligan,             \nPeter Gould            "
-    - 
-    - "/title/tt3032476/"
-    - 
-  - - 33
-    - Modern Family
-    - '2016-05-14 19:53:34.384468'
-    - '2016-05-14 19:54:50.484387'
-    - "\n                    Three different, but related families face trials and
-      tribulations in their own uniquely comedic ways.\n            "
-    - 
-    - '2009-09-23'
-    - "\nEd O'Neill,             \nSofía Vergara,             \nJulie Bowen            "
-    - "\nSteven Levitan,             \nChristopher Lloyd            "
-    - 
-    - "/title/tt1442437/"
-    - 
-  - - 34
-    - Orange Is the New Black
-    - '2016-05-14 19:53:34.386459'
-    - '2016-08-11 22:48:54.941159'
-    - "\n                    The story of Piper Chapman, a woman in her thirties who
-      is sentenced to fifteen months in prison after being convicted of a decade-old
-      crime of transporting money to her drug-dealing girlfriend.\n            "
-    - 
-    - '2013-07-11'
-    - "\nTaylor Schilling,             \nDanielle Brooks,             \nTaryn Manning
-      \           "
-    - "\nJenji Kohan            "
-    - 
-    - "/title/tt2372162/"
-    - 
-  - - 35
-    - American Horror Story
-    - '2016-05-14 19:53:34.388462'
-    - '2016-05-14 19:54:51.868047'
-    - "\n                    An anthology series that centers on different characters
-      and locations, including a house with a murderous past, an insane asylum, a
-      witch coven, a freak show, and an enigmatic hotel.\n            "
-    - 
-    - '2011-10-05'
-    - "\nLady Gaga,             \nKathy Bates,             \nAngela Bassett            "
-    - "\nBrad Falchuk,             \nRyan Murphy            "
-    - 
-    - "/title/tt1844624/"
-    - 
-  - - 36
-    - Quantico
-    - '2016-05-14 19:53:34.390599'
-    - '2016-08-11 22:48:56.185929'
-    - "\n                    A look at the lives of young FBI recruits training at
-      the Quantico base in Virginia when one of them is suspected of being a sleeper
-      terrorist.\n            "
-    - 
-    - 
-    - "\nPriyanka Chopra,             \nJake McLaughlin,             \nAunjanue Ellis
-      \           "
-    - "\nJoshua Safran            "
-    - 
-    - "/title/tt4428122/"
-    - 
-  - - 37
-    - Castle
-    - '2016-05-14 19:53:34.392627'
-    - '2016-05-14 19:54:52.666777'
-    - "\n                    After a serial killer imitates the plots of his novels,
-      successful mystery novelist Richard \"Rick\" Castle receives permission from
-      the Mayor of New York City to tag along with an NYPD homicide investigation
-      team for research purposes.\n            "
-    - 
-    - 
-    - "\nNathan Fillion,             \nStana Katic,             \nSusan Sullivan            "
-    - "\nAndrew W. Marlowe            "
-    - 
-    - "/title/tt1219024/"
-    - 
-  - - 38
-    - Sherlock
-    - '2016-05-14 19:53:34.394641'
-    - '2016-05-14 19:54:53.395574'
-    - "\n                    A modern update finds the famous sleuth and his doctor
-      partner solving crime in 21st century London.\n            "
-    - 
-    - '2010-10-24'
-    - "\nBenedict Cumberbatch,             \nMartin Freeman,             \nUna Stubbs
-      \           "
-    - "\nMark Gatiss,             \nSteven Moffat            "
-    - 
-    - "/title/tt1475582/"
-    - 
-  - - 39
-    - Blindspot
-    - '2016-05-14 19:53:34.396663'
-    - '2016-08-11 22:48:57.705958'
-    - "\n                    Jane Doe is found in Times Square with no memory and
-      mysterious tattoos on her body.\n            "
-    - 
-    - 
-    - "\nSullivan Stapleton,             \nJaimie Alexander,             \nRob Brown
-      \           "
-    - "\nMartin Gero            "
-    - 
-    - "/title/tt4474344/"
-    - 
-  - - 40
-    - The Originals
-    - '2016-05-14 19:53:34.398688'
-    - '2016-05-14 19:54:54.488434'
-    - "\n                    A family of power-hungry thousand year old vampires look
-      to take back the city that they built and dominate all those who have done them
-      wrong.\n            "
-    - 
-    - '2013-10-03'
-    - "\nJoseph Morgan,             \nDaniel Gillies,             \nClaire Holt            "
-    - "\nJulie Plec            "
-    - 
-    - "/title/tt2632424/"
-    - 
-  - - 41
-    - The Good Wife
-    - '2016-05-14 19:53:34.400882'
-    - '2016-05-14 19:54:54.973239'
-    - "\n                    Alicia has been a good wife to her husband, a former
-      state's attorney. After a very humiliating sex and corruption scandal, he is
-      behind bars. She must now provide for her family and returns to work as a litigator
-      in a law firm.\n            "
-    - 
-    - '2009-09-22'
-    - "\nJulianna Margulies,             \nChris Noth,             \nJosh Charles
-      \           "
-    - "\nMichelle King,             \nRobert King            "
-    - 
-    - "/title/tt1442462/"
-    - 
-  - - 42
-    - Bones
-    - '2016-05-14 19:53:34.403140'
-    - '2016-08-11 22:48:59.549050'
-    - "\n                    Forensic anthropologist, Dr. Temperance \"Bones\" Brennan,
-      and cocky FBI special agent Seeley Booth build a team to investigate murders
-      - and quite often, there isn't more to examine than rotten flesh or mere bones.\n
-      \           "
-    - 
-    - '2005-09-13'
-    - "\nEmily Deschanel,             \nDavid Boreanaz,             \nMichaela Conlin
-      \           "
-    - "\nHart Hanson            "
-    - 
-    - "/title/tt0460627/"
-    - 
-  - - 43
-    - Friends
-    - '2016-05-14 19:53:34.405283'
-    - '2016-05-14 19:54:56.083244'
-    - "\n                    Follows the lives of six 20-something friends living
-      in Manhattan.\n            "
-    - 
-    - '1994-09-22'
-    - "\nJennifer Aniston,             \nCourteney Cox,             \nLisa Kudrow
-      \           "
-    - "\nDavid Crane,             \nMarta Kauffman            "
-    - 
-    - "/title/tt0108778/"
-    - 
-  - - 44
-    - Empire
-    - '2016-05-14 19:53:34.407417'
-    - '2016-05-14 19:54:56.736031'
-    - "\n                    A hip-hop mogul must choose between his three sons who
-      are battling for control over his multi-million dollar company, while his ex-wife
-      schemes to get what's hers.\n            "
-    - 
-    - 
-    - "\nTerrence Howard,             \nTaraji P. Henson,             \nJussie Smollett
-      \           "
-    - "\nLee Daniels,             \nDanny Strong            "
-    - 
-    - "/title/tt3228904/"
-    - 
-  - - 45
-    - Elementary
-    - '2016-05-14 19:53:34.409508'
-    - '2016-08-11 22:49:01.707687'
-    - "\n                    A modern take on the cases of Sherlock Holmes, with the
-      detective now living in New York City.\n            "
-    - 
-    - '2012-09-27'
-    - "\nJonny Lee Miller,             \nLucy Liu,             \nAidan Quinn            "
-    - "\nRobert Doherty            "
-    - 
-    - "/title/tt2191671/"
-    - 
-  - - 46
-    - The Americans
-    - '2016-05-14 19:53:34.411681'
-    - '2016-05-14 19:54:57.890000'
-    - "\n                    Two Soviet intelligence agents pose as a married couple
-      to spy on the American government.\n            "
-    - 
-    - '2013-01-30'
-    - "\nKeri Russell,             \nMatthew Rhys,             \nKeidrich Sellati
-      \           "
-    - "\nJoseph Weisberg            "
-    - 
-    - "/title/tt2149175/"
-    - 
-  - - 47
-    - 'Law & Order: Special Victims Unit'
-    - '2016-05-14 19:53:34.413730'
-    - '2016-05-14 19:54:58.386161'
-    - "\n                    This show introduces the Special Victims Unit, a new
-      elite squad of NYPD detectives who investigate sexually related crimes.\n            "
-    - 
-    - '1999-09-20'
-    - "\nMariska Hargitay,             \nChristopher Meloni,             \nIce-T            "
-    - "\nDick Wolf            "
-    - 
-    - "/title/tt0203259/"
-    - 
-  - - 48
-    - iZombie
-    - '2016-05-14 19:53:34.415723'
-    - '2016-05-14 19:54:58.920965'
-    - "\n                    A medical resident finds that being a zombie has its
-      perks, which she uses to assist the police.\n            "
-    - 
-    - 
-    - "\nRose McIver,             \nMalcolm Goodwin,             \nRahul Kohli            "
-    - "\nDiane Ruggiero,             \nRob Thomas            "
-    - 
-    - "/title/tt3501584/"
-    - 
-  - - 49
-    - The Ranch
-    - '2016-05-14 19:53:34.417701'
-    - '2016-05-14 19:54:59.321431'
-    - "\n                    The son of a Colorado rancher returns home from a semi-pro
-      football career to run the family business.\n            "
-    - 
-    - 
-    - "\nAshton Kutcher,             \nDanny Masterson,             \nDebra Winger
-      \           "
-    - "\nJim Patterson,             \nDon Reo            "
-    - 
-    - "/title/tt4998212/"
-    - 
-  - - 50
-    - Supergirl
-    - '2016-05-14 19:53:34.419661'
-    - '2016-05-14 19:54:59.702447'
-    - "\n                    The adventures of Superman's cousin in her own superhero
-      career.\n            "
-    - 
-    - '2015-10-26'
-    - "\nMelissa Benoist,             \nMehcad Brooks,             \nChyler Leigh
-      \           "
-    - "\nAli Adler,             \nGreg Berlanti,             \nAndrew Kreisberg            "
-    - 
-    - "/title/tt4016454/"
-    - 
-  - - 51
-    - Grace and Frankie
-    - '2016-05-18 20:46:09.490108'
-    - '2016-08-11 22:49:05.690365'
-    - "\n                    Finding out that their husbands are not just work partners,
-      but have also been romantically involved for the last 20 years, two women with
-      an already strained relationship try to cope with the circumstances together.\n
-      \           "
-    - 
-    - '2015-05-08'
-    - "\nJane Fonda,             \nLily Tomlin,             \nSam Waterston            "
-    - "\nMarta Kauffman,             \nHoward J. Morris            "
-    - 
-    - "/title/tt3609352/"
-    - 
-  - - 52
-    - Bates Motel
-    - '2016-05-18 20:46:09.524741'
-    - '2016-08-11 22:49:06.943650'
-    - "\n                    Centers on a mother and son who come to a new town so
-      that they can start over and set up a new business, but a lot of mysterious
-      incidents happen, including the unanswered and horrible acts of the son.\n            "
-    - 
-    - '2013-03-18'
-    - "\nVera Farmiga,             \nFreddie Highmore,             \nMax Thieriot
-      \           "
-    - "\nAnthony Cipriano,             \nCarlton Cuse,             \nKerry Ehrin            "
-    - 
-    - "/title/tt2188671/"
-    - 
-  - - 53
-    - Grimm
-    - '2016-05-18 20:46:09.561844'
-    - '2016-08-11 22:49:07.530448'
-    - "\n                    A homicide detective discovers he is a descendant of
-      hunters who fight supernatural forces.\n            "
-    - 
-    - '2011-10-28'
-    - "\nDavid Giuntoli,             \nRussell Hornsby,             \nSilas Weir Mitchell
-      \           "
-    - "\nDavid Greenwalt            "
-    - 
-    - "/title/tt1830617/"
-    - 
-
----
 episodes:
   columns:
   - id
@@ -70518,3 +69761,708 @@ lists:
   - - 31
     - 1
     - 46
+
+---
+series:
+  columns:
+  - id
+  - title
+  - created_at
+  - updated_at
+  - description
+  - network
+  - premiere
+  - cast
+  - creator
+  - url
+  - seasonsno
+  records: 
+  - - 1
+    - Game of Thrones
+    - '2016-05-14 19:53:34.312351'
+    - '2016-05-14 19:54:34.303079'
+    - "\n                    While a civil war brews between several noble families
+      in Westeros, the children of the former rulers of the land attempt to rise up
+      to power. Meanwhile a forgotten race, bent on destruction, plans to return after
+      thousands of years in the North.\n            "
+    - 
+    - '2011-04-17'
+    - "\nEmilia Clarke,             \nPeter Dinklage,             \nKit Harington
+      \           "
+    - "\nDavid Benioff,             \nD.B. Weiss            "
+    - "/title/tt0944947/"
+    - 
+  - - 2
+    - The Flash
+    - '2016-05-14 19:53:34.320908'
+    - '2016-08-11 22:48:35.207931'
+    - "\n                    Barry Allen wakes up 9 months after he was struck by
+      lightning and discovers that the bolt gave him the power of super speed. With
+      his new team and powers, Barry becomes \"The Flash\" and fights crime in Central
+      City.\n            "
+    - 
+    - '2014-10-07'
+    - "\nGrant Gustin,             \nCandice Patton,             \nDanielle Panabaker
+      \           "
+    - ''
+    - "/title/tt3107288/"
+    - 
+  - - 3
+    - Vikings
+    - '2016-05-14 19:53:34.322986'
+    - '2016-08-11 22:48:35.893646'
+    - "\n                    The world of the Vikings is brought to life through the
+      journey of Ragnar Lothbrok, the first Viking to emerge from Norse legend and
+      onto the pages of history - a man on the edge of myth.\n            "
+    - 
+    - '2013-03-03'
+    - "\nTravis Fimmel,             \nClive Standen,             \nGustaf Skarsgård
+      \           "
+    - "\nMichael Hirst            "
+    - "/title/tt2306299/"
+    - 
+  - - 4
+    - Arrow
+    - '2016-05-14 19:53:34.324957'
+    - '2016-05-14 19:54:35.563503'
+    - "\n                    Spoiled billionaire playboy Oliver Queen is missing and
+      presumed dead when his yacht is lost at sea. He returns five years later a changed
+      man, determined to clean up the city as a hooded vigilante armed with a bow.\n
+      \           "
+    - 
+    - '2012-10-10'
+    - "\nStephen Amell,             \nKatie Cassidy,             \nDavid Ramsey            "
+    - "\nGreg Berlanti,             \nMarc Guggenheim,             \nAndrew Kreisberg
+      \           "
+    - "/title/tt2193021/"
+    - 
+  - - 6
+    - The Walking Dead
+    - '2016-05-14 19:53:34.329081'
+    - '2016-05-14 19:54:36.824304'
+    - "\n                    Sheriff Deputy Rick Grimes leads a group of survivors
+      in a world overrun by the walking dead. Fighting the dead, fearing the living.\n
+      \           "
+    - 
+    - '2010-10-31'
+    - "\nAndrew Lincoln,             \nJon Bernthal,             \nSarah Wayne Callies
+      \           "
+    - "\nFrank Darabont            "
+    - "/title/tt1520211/"
+    - 
+  - - 7
+    - The Blacklist
+    - '2016-05-14 19:53:34.331147'
+    - '2016-05-14 19:54:37.244223'
+    - "\n                    A new FBI profiler, Elizabeth Keen, has her entire life
+      uprooted when a mysterious criminal, Raymond Reddington, who has eluded capture
+      for decades, turns himself in and insists on speaking only to her.\n            "
+    - 
+    - '2013-09-23'
+    - "\nJames Spader,             \nMegan Boone,             \nDiego Klattenhoff
+      \           "
+    - "\nJon Bokenkamp            "
+    - "/title/tt2741602/"
+    - 
+  - - 8
+    - Penny Dreadful
+    - '2016-05-14 19:53:34.333138'
+    - '2016-05-14 19:54:37.730861'
+    - "\n                    Explorer Sir Malcolm Murray, American gunslinger Ethan
+      Chandler, scientist Victor Frankenstein and medium Vanessa Ives unite to combat
+      supernatural threats in Victorian London.\n            "
+    - 
+    - '2014-04-28'
+    - "\nJosh Hartnett,             \nTimothy Dalton,             \nEva Green            "
+    - "\nJohn Logan            "
+    - "/title/tt2628232/"
+    - 
+  - - 9
+    - Supernatural
+    - '2016-05-14 19:53:34.335167'
+    - '2016-05-14 19:54:38.206561'
+    - "\n                    Two brothers follow their father's footsteps as \"hunters\"
+      fighting evil supernatural beings of many kinds including monsters, demons,
+      and gods that roam the earth.\n            "
+    - 
+    - '2005-09-13'
+    - "\nJared Padalecki,             \nJensen Ackles,             \nJim Beaver            "
+    - "\nEric Kripke            "
+    - "/title/tt0460681/"
+    - 
+  - - 10
+    - Grey's Anatomy
+    - '2016-05-14 19:53:34.337122'
+    - '2016-05-14 19:54:38.646899'
+    - "\n                    A drama centered on the personal and professional lives
+      of five surgical interns and their supervisors.\n            "
+    - 
+    - '2005-03-27'
+    - "\nEllen Pompeo,             \nJustin Chambers,             \nChandra Wilson
+      \           "
+    - "\nShonda Rhimes            "
+    - "/title/tt0413573/"
+    - 
+  - - 11
+    - The 100
+    - '2016-05-14 19:53:34.339336'
+    - '2016-05-14 19:54:39.254027'
+    - "\n                    Set 97 years after a nuclear war has destroyed civilization,
+      when a spaceship housing humanity's lone survivors sends 100 juvenile delinquents
+      back to Earth in hopes of possibly re-populating the planet.\n            "
+    - 
+    - '2014-03-19'
+    - "\nEliza Taylor,             \nEli Goree,             \nThomas McDonell            "
+    - "\nJason Rothenberg            "
+    - "/title/tt2661044/"
+    - 
+  - - 12
+    - Outlander
+    - '2016-05-14 19:53:34.341456'
+    - '2016-05-14 19:54:39.602695'
+    - "\n                    Follows the story of Claire Randall, a married combat
+      nurse from 1945 who is mysteriously swept back in time to 1743, where she is
+      immediately thrown into an unknown world where her life is...\n                    See
+      full summary »\n            "
+    - 
+    - '2014-08-09'
+    - "\nCaitriona Balfe,             \nSam Heughan,             \nDuncan Lacroix
+      \           "
+    - "\nRonald D. Moore            "
+    - "/title/tt3006802/"
+    - 
+  - - 13
+    - Once Upon a Time
+    - '2016-05-14 19:53:34.343491'
+    - '2016-08-11 22:48:41.731247'
+    - "\n                    A young woman with a troubled past is drawn to a small
+      town in Maine where fairy tales are to be believed.\n            "
+    - 
+    - '2011-10-23'
+    - "\nJennifer Morrison,             \nLana Parrilla,             \nJared Gilmore
+      \           "
+    - "\nAdam Horowitz,             \nEdward Kitsis            "
+    - "/title/tt1843230/"
+    - 
+  - - 14
+    - The Big Bang Theory
+    - '2016-05-14 19:53:34.345502'
+    - '2016-05-14 19:54:40.504108'
+    - "\n                    A woman who moves into an apartment across the hall from
+      two brilliant but socially awkward physicists shows them how little they know
+      about life outside of the laboratory.\n            "
+    - 
+    - '2006-05-01'
+    - "\nJohnny Galecki,             \nJim Parsons,             \nKaley Cuoco            "
+    - "\nChuck Lorre,             \nBill Prady            "
+    - "/title/tt0898266/"
+    - 
+  - - 15
+    - Gotham
+    - '2016-05-14 19:53:34.347556'
+    - '2016-05-14 19:54:40.997268'
+    - "\n                    The story behind Detective James Gordon's rise to prominence
+      in Gotham City in the years before Batman's arrival.\n            "
+    - 
+    - 
+    - "\nBen McKenzie,             \nJada Pinkett Smith,             \nDonal Logue
+      \           "
+    - "\nBruno Heller            "
+    - "/title/tt3749900/"
+    - 
+  - - 16
+    - Daredevil
+    - '2016-05-14 19:53:34.349760'
+    - '2016-08-11 22:48:43.881574'
+    - "\n                    Matt Murdock, with his other senses superhumanly enhanced,
+      fights crime as a blind lawyer by day, and vigilante by night.\n            "
+    - 
+    - '2015-04-10'
+    - "\nCharlie Cox,             \nVincent D'Onofrio,             \nDeborah Ann Woll
+      \           "
+    - "\nDrew Goddard            "
+    - "/title/tt3322312/"
+    - 
+  - - 17
+    - Agents of S.H.I.E.L.D.
+    - '2016-05-14 19:53:34.351867'
+    - '2016-05-14 19:54:42.099928'
+    - "\n                    The missions of the Strategic Homeland Intervention,
+      Enforcement and Logistics Division.\n            "
+    - 
+    - '2013-09-24'
+    - "\nClark Gregg,             \nMing-Na Wen,             \nBrett Dalton            "
+    - "\nMaurissa Tancharoen,             \nJed Whedon,             \nJoss Whedon
+      \           "
+    - "/title/tt2364582/"
+    - 
+  - - 18
+    - Peaky Blinders
+    - '2016-05-14 19:53:34.353868'
+    - '2016-08-11 22:48:45.102218'
+    - "\n                    A gangster family epic set in 1919 Birmingham, England
+      and centered on a gang who sew razor blades in the peaks of their caps, and
+      their fierce boss Tommy Shelby, who means to move up in the world.\n            "
+    - 
+    - 
+    - "\nCillian Murphy,             \nPaul Anderson,             \nJoe Cole            "
+    - "\nSteven Knight            "
+    - "/title/tt2442560/"
+    - 
+  - - 19
+    - Person of Interest
+    - '2016-05-14 19:53:34.355855'
+    - '2016-05-14 19:54:42.974990'
+    - "\n                    An ex-assassin and a wealthy programmer save lives via
+      a surveillance AI that sends them the identities of civilians involved in impending
+      crimes. However, the details of the crimes--including the civilians' roles--are
+      left a mystery.\n            "
+    - 
+    - '2011-09-22'
+    - "\nJim Caviezel,             \nTaraji P. Henson,             \nKevin Chapman
+      \           "
+    - "\nJonathan Nolan            "
+    - "/title/tt1839578/"
+    - 
+  - - 20
+    - Lucifer
+    - '2016-05-14 19:53:34.357823'
+    - '2016-05-14 19:54:43.573276'
+    - "\n                    Satan takes up residence in Los Angeles.\n            "
+    - 
+    - '2016-01-25'
+    - "\nTom Ellis,             \nLauren German,             \nD.B. Woodside            "
+    - "\nTom Kapinos            "
+    - "/title/tt4052886/"
+    - 
+  - - 21
+    - NCIS
+    - '2016-05-14 19:53:34.359900'
+    - '2016-05-14 19:54:44.179143'
+    - "\n                    The cases of the Naval Criminal Investigative Service's
+      Washington DC Major Case Response Team, led by Special Agent Leroy Jethro Gibbs.\n
+      \           "
+    - 
+    - '2003-09-23'
+    - "\nMark Harmon,             \nMichael Weatherly,             \nPauley Perrette
+      \           "
+    - "\nDonald P. Bellisario,             \nDon McGill            "
+    - "/title/tt0364845/"
+    - 
+  - - 22
+    - Legends of Tomorrow
+    - '2016-05-14 19:53:34.361915'
+    - '2016-05-14 19:54:44.607801'
+    - "\n                    Focuses on time-traveling rogue Rip Hunter, who has to
+      recruit a rag-tag team of heroes and villains to help prevent an apocalypse
+      that could impact not only Earth, but all of time.\n            "
+    - 
+    - '2016-01-21'
+    - "\nVictor Garber,             \nBrandon Routh,             \nArthur Darvill
+      \           "
+    - "\nGreg Berlanti,             \nMarc Guggenheim,             \nPhil Klemmer
+      \           "
+    - "/title/tt4532368/"
+    - 
+  - - 24
+    - Banshee
+    - '2016-05-14 19:53:34.365863'
+    - '2016-05-14 19:54:45.676942'
+    - "\n                    Lucas Hood (Antony Starr), an ex-con and master thief
+      assumes the identity of a murdered sheriff where he continues his criminal activities.
+      His past seems to haunt him by those he betrayed...\n                    See
+      full summary »\n            "
+    - 
+    - '2013-01-11'
+    - "\nAntony Starr,             \nIvana Milicevic,             \nUlrich Thomsen
+      \           "
+    - "\nDavid Schickler,             \nJonathan Tropper            "
+    - "/title/tt2017109/"
+    - 
+  - - 25
+    - House of Cards
+    - '2016-05-14 19:53:34.367841'
+    - '2016-05-14 19:54:46.086231'
+    - "\n                    A Congressman works with his equally conniving wife to
+      exact revenge on the people who betrayed him.\n            "
+    - 
+    - '2013-02-01'
+    - "\nKevin Spacey,             \nMichel Gill,             \nRobin Wright            "
+    - ''
+    - "/title/tt1856010/"
+    - 
+  - - 26
+    - The Vampire Diaries
+    - '2016-05-14 19:53:34.369962'
+    - '2016-05-14 19:54:47.248548'
+    - "\n                    A teenage girl is torn between two vampire brothers.\n
+      \           "
+    - 
+    - '2009-09-10'
+    - "\nNina Dobrev,             \nPaul Wesley,             \nIan Somerhalder            "
+    - "\nJulie Plec,             \nKevin Williamson            "
+    - "/title/tt1405406/"
+    - 
+  - - 27
+    - Criminal Minds
+    - '2016-05-14 19:53:34.372071'
+    - '2016-08-11 22:48:50.014961'
+    - "\n                    The cases of the FBI Behavioral Analysis Unit (BAU),
+      an elite group of profilers who analyze the nation's most dangerous serial killers
+      and individual heinous crimes in an effort to anticipate their next moves before
+      they strike again.\n            "
+    - 
+    - '2005-09-22'
+    - "\nThomas Gibson,             \nMatthew Gray Gubler,             \nKirsten Vangsness
+      \           "
+    - "\nJeff Davis            "
+    - "/title/tt0452046/"
+    - 
+  - - 28
+    - Unbreakable Kimmy Schmidt
+    - '2016-05-14 19:53:34.374120'
+    - '2016-05-14 19:54:48.184964'
+    - "\n                    A woman is rescued from a doomsday cult and starts life
+      over again in New York City.\n            "
+    - 
+    - 
+    - "\nEllie Kemper,             \nJane Krakowski,             \nTituss Burgess
+      \           "
+    - "\nRobert Carlock,             \nTina Fey            "
+    - "/title/tt3339966/"
+    - 
+  - - 29
+    - New Girl
+    - '2016-05-14 19:53:34.376168'
+    - '2016-05-14 19:54:48.590082'
+    - "\n                    After a bad break-up, Jess, an offbeat young woman, moves
+      into an apartment loft with three single men. Although they find her behavior
+      very unusual, the men support her - most of the time.\n            "
+    - 
+    - '2011-09-20'
+    - "\nZooey Deschanel,             \nJake Johnson,             \nMax Greenfield
+      \           "
+    - "\nElizabeth Meriwether            "
+    - "/title/tt1826940/"
+    - 
+  - - 30
+    - Silicon Valley
+    - '2016-05-14 19:53:34.378189'
+    - '2016-05-14 19:54:49.149750'
+    - "\n                    In the high-tech gold rush of modern Silicon Valley,
+      the people most qualified to succeed are the least capable of handling success.
+      A comedy partially inspired by Mike Judge's own ...\n                    See
+      full summary »\n            "
+    - 
+    - '2014-04-06'
+    - "\nThomas Middleditch,             \nT.J. Miller,             \nJosh Brener
+      \           "
+    - "\nJohn Altschuler,             \nMike Judge,             \nDave Krinsky            "
+    - "/title/tt2575988/"
+    - 
+  - - 31
+    - Suits
+    - '2016-05-14 19:53:34.380341'
+    - '2016-05-14 19:54:49.549754'
+    - "\n                    On the run from a drug deal gone bad, Mike Ross, a brilliant
+      college-dropout, finds himself a job working with Harvey Specter, one of New
+      York City's best lawyers.\n            "
+    - 
+    - '2011-06-23'
+    - "\nGabriel Macht,             \nPatrick J. Adams,             \nMeghan Markle
+      \           "
+    - "\nAaron Korsh            "
+    - "/title/tt1632701/"
+    - 
+  - - 32
+    - Better Call Saul
+    - '2016-05-14 19:53:34.382474'
+    - '2016-08-11 22:48:53.691677'
+    - "\n                    The trials and tribulations of criminal lawyer, Jimmy
+      McGill, in the time leading up to establishing his strip-mall law office in
+      Albuquerque, New Mexico.\n            "
+    - 
+    - '2015-02-08'
+    - "\nBob Odenkirk,             \nJonathan Banks,             \nRhea Seehorn            "
+    - "\nVince Gilligan,             \nPeter Gould            "
+    - "/title/tt3032476/"
+    - 
+  - - 33
+    - Modern Family
+    - '2016-05-14 19:53:34.384468'
+    - '2016-05-14 19:54:50.484387'
+    - "\n                    Three different, but related families face trials and
+      tribulations in their own uniquely comedic ways.\n            "
+    - 
+    - '2009-09-23'
+    - "\nEd O'Neill,             \nSofía Vergara,             \nJulie Bowen            "
+    - "\nSteven Levitan,             \nChristopher Lloyd            "
+    - "/title/tt1442437/"
+    - 
+  - - 34
+    - Orange Is the New Black
+    - '2016-05-14 19:53:34.386459'
+    - '2016-08-11 22:48:54.941159'
+    - "\n                    The story of Piper Chapman, a woman in her thirties who
+      is sentenced to fifteen months in prison after being convicted of a decade-old
+      crime of transporting money to her drug-dealing girlfriend.\n            "
+    - 
+    - '2013-07-11'
+    - "\nTaylor Schilling,             \nDanielle Brooks,             \nTaryn Manning
+      \           "
+    - "\nJenji Kohan            "
+    - "/title/tt2372162/"
+    - 
+  - - 35
+    - American Horror Story
+    - '2016-05-14 19:53:34.388462'
+    - '2016-05-14 19:54:51.868047'
+    - "\n                    An anthology series that centers on different characters
+      and locations, including a house with a murderous past, an insane asylum, a
+      witch coven, a freak show, and an enigmatic hotel.\n            "
+    - 
+    - '2011-10-05'
+    - "\nLady Gaga,             \nKathy Bates,             \nAngela Bassett            "
+    - "\nBrad Falchuk,             \nRyan Murphy            "
+    - "/title/tt1844624/"
+    - 
+  - - 36
+    - Quantico
+    - '2016-05-14 19:53:34.390599'
+    - '2016-08-11 22:48:56.185929'
+    - "\n                    A look at the lives of young FBI recruits training at
+      the Quantico base in Virginia when one of them is suspected of being a sleeper
+      terrorist.\n            "
+    - 
+    - 
+    - "\nPriyanka Chopra,             \nJake McLaughlin,             \nAunjanue Ellis
+      \           "
+    - "\nJoshua Safran            "
+    - "/title/tt4428122/"
+    - 
+  - - 37
+    - Castle
+    - '2016-05-14 19:53:34.392627'
+    - '2016-05-14 19:54:52.666777'
+    - "\n                    After a serial killer imitates the plots of his novels,
+      successful mystery novelist Richard \"Rick\" Castle receives permission from
+      the Mayor of New York City to tag along with an NYPD homicide investigation
+      team for research purposes.\n            "
+    - 
+    - 
+    - "\nNathan Fillion,             \nStana Katic,             \nSusan Sullivan            "
+    - "\nAndrew W. Marlowe            "
+    - "/title/tt1219024/"
+    - 
+  - - 38
+    - Sherlock
+    - '2016-05-14 19:53:34.394641'
+    - '2016-05-14 19:54:53.395574'
+    - "\n                    A modern update finds the famous sleuth and his doctor
+      partner solving crime in 21st century London.\n            "
+    - 
+    - '2010-10-24'
+    - "\nBenedict Cumberbatch,             \nMartin Freeman,             \nUna Stubbs
+      \           "
+    - "\nMark Gatiss,             \nSteven Moffat            "
+    - "/title/tt1475582/"
+    - 
+  - - 39
+    - Blindspot
+    - '2016-05-14 19:53:34.396663'
+    - '2016-08-11 22:48:57.705958'
+    - "\n                    Jane Doe is found in Times Square with no memory and
+      mysterious tattoos on her body.\n            "
+    - 
+    - 
+    - "\nSullivan Stapleton,             \nJaimie Alexander,             \nRob Brown
+      \           "
+    - "\nMartin Gero            "
+    - "/title/tt4474344/"
+    - 
+  - - 40
+    - The Originals
+    - '2016-05-14 19:53:34.398688'
+    - '2016-05-14 19:54:54.488434'
+    - "\n                    A family of power-hungry thousand year old vampires look
+      to take back the city that they built and dominate all those who have done them
+      wrong.\n            "
+    - 
+    - '2013-10-03'
+    - "\nJoseph Morgan,             \nDaniel Gillies,             \nClaire Holt            "
+    - "\nJulie Plec            "
+    - "/title/tt2632424/"
+    - 
+  - - 41
+    - The Good Wife
+    - '2016-05-14 19:53:34.400882'
+    - '2016-05-14 19:54:54.973239'
+    - "\n                    Alicia has been a good wife to her husband, a former
+      state's attorney. After a very humiliating sex and corruption scandal, he is
+      behind bars. She must now provide for her family and returns to work as a litigator
+      in a law firm.\n            "
+    - 
+    - '2009-09-22'
+    - "\nJulianna Margulies,             \nChris Noth,             \nJosh Charles
+      \           "
+    - "\nMichelle King,             \nRobert King            "
+    - "/title/tt1442462/"
+    - 
+  - - 42
+    - Bones
+    - '2016-05-14 19:53:34.403140'
+    - '2016-08-11 22:48:59.549050'
+    - "\n                    Forensic anthropologist, Dr. Temperance \"Bones\" Brennan,
+      and cocky FBI special agent Seeley Booth build a team to investigate murders
+      - and quite often, there isn't more to examine than rotten flesh or mere bones.\n
+      \           "
+    - 
+    - '2005-09-13'
+    - "\nEmily Deschanel,             \nDavid Boreanaz,             \nMichaela Conlin
+      \           "
+    - "\nHart Hanson            "
+    - "/title/tt0460627/"
+    - 
+  - - 43
+    - Friends
+    - '2016-05-14 19:53:34.405283'
+    - '2016-05-14 19:54:56.083244'
+    - "\n                    Follows the lives of six 20-something friends living
+      in Manhattan.\n            "
+    - 
+    - '1994-09-22'
+    - "\nJennifer Aniston,             \nCourteney Cox,             \nLisa Kudrow
+      \           "
+    - "\nDavid Crane,             \nMarta Kauffman            "
+    - "/title/tt0108778/"
+    - 
+  - - 44
+    - Empire
+    - '2016-05-14 19:53:34.407417'
+    - '2016-05-14 19:54:56.736031'
+    - "\n                    A hip-hop mogul must choose between his three sons who
+      are battling for control over his multi-million dollar company, while his ex-wife
+      schemes to get what's hers.\n            "
+    - 
+    - 
+    - "\nTerrence Howard,             \nTaraji P. Henson,             \nJussie Smollett
+      \           "
+    - "\nLee Daniels,             \nDanny Strong            "
+    - "/title/tt3228904/"
+    - 
+  - - 45
+    - Elementary
+    - '2016-05-14 19:53:34.409508'
+    - '2016-08-11 22:49:01.707687'
+    - "\n                    A modern take on the cases of Sherlock Holmes, with the
+      detective now living in New York City.\n            "
+    - 
+    - '2012-09-27'
+    - "\nJonny Lee Miller,             \nLucy Liu,             \nAidan Quinn            "
+    - "\nRobert Doherty            "
+    - "/title/tt2191671/"
+    - 
+  - - 46
+    - The Americans
+    - '2016-05-14 19:53:34.411681'
+    - '2016-05-14 19:54:57.890000'
+    - "\n                    Two Soviet intelligence agents pose as a married couple
+      to spy on the American government.\n            "
+    - 
+    - '2013-01-30'
+    - "\nKeri Russell,             \nMatthew Rhys,             \nKeidrich Sellati
+      \           "
+    - "\nJoseph Weisberg            "
+    - "/title/tt2149175/"
+    - 
+  - - 47
+    - 'Law & Order: Special Victims Unit'
+    - '2016-05-14 19:53:34.413730'
+    - '2016-05-14 19:54:58.386161'
+    - "\n                    This show introduces the Special Victims Unit, a new
+      elite squad of NYPD detectives who investigate sexually related crimes.\n            "
+    - 
+    - '1999-09-20'
+    - "\nMariska Hargitay,             \nChristopher Meloni,             \nIce-T            "
+    - "\nDick Wolf            "
+    - "/title/tt0203259/"
+    - 
+  - - 48
+    - iZombie
+    - '2016-05-14 19:53:34.415723'
+    - '2016-05-14 19:54:58.920965'
+    - "\n                    A medical resident finds that being a zombie has its
+      perks, which she uses to assist the police.\n            "
+    - 
+    - 
+    - "\nRose McIver,             \nMalcolm Goodwin,             \nRahul Kohli            "
+    - "\nDiane Ruggiero,             \nRob Thomas            "
+    - "/title/tt3501584/"
+    - 
+  - - 49
+    - The Ranch
+    - '2016-05-14 19:53:34.417701'
+    - '2016-05-14 19:54:59.321431'
+    - "\n                    The son of a Colorado rancher returns home from a semi-pro
+      football career to run the family business.\n            "
+    - 
+    - 
+    - "\nAshton Kutcher,             \nDanny Masterson,             \nDebra Winger
+      \           "
+    - "\nJim Patterson,             \nDon Reo            "
+    - "/title/tt4998212/"
+    - 
+  - - 50
+    - Supergirl
+    - '2016-05-14 19:53:34.419661'
+    - '2016-05-14 19:54:59.702447'
+    - "\n                    The adventures of Superman's cousin in her own superhero
+      career.\n            "
+    - 
+    - '2015-10-26'
+    - "\nMelissa Benoist,             \nMehcad Brooks,             \nChyler Leigh
+      \           "
+    - "\nAli Adler,             \nGreg Berlanti,             \nAndrew Kreisberg            "
+    - "/title/tt4016454/"
+    - 
+  - - 51
+    - Grace and Frankie
+    - '2016-05-18 20:46:09.490108'
+    - '2016-08-11 22:49:05.690365'
+    - "\n                    Finding out that their husbands are not just work partners,
+      but have also been romantically involved for the last 20 years, two women with
+      an already strained relationship try to cope with the circumstances together.\n
+      \           "
+    - 
+    - '2015-05-08'
+    - "\nJane Fonda,             \nLily Tomlin,             \nSam Waterston            "
+    - "\nMarta Kauffman,             \nHoward J. Morris            "
+    - "/title/tt3609352/"
+    - 
+  - - 52
+    - Bates Motel
+    - '2016-05-18 20:46:09.524741'
+    - '2016-08-11 22:49:06.943650'
+    - "\n                    Centers on a mother and son who come to a new town so
+      that they can start over and set up a new business, but a lot of mysterious
+      incidents happen, including the unanswered and horrible acts of the son.\n            "
+    - 
+    - '2013-03-18'
+    - "\nVera Farmiga,             \nFreddie Highmore,             \nMax Thieriot
+      \           "
+    - "\nAnthony Cipriano,             \nCarlton Cuse,             \nKerry Ehrin            "
+    - "/title/tt2188671/"
+    - 
+  - - 53
+    - Grimm
+    - '2016-05-18 20:46:09.561844'
+    - '2016-08-11 22:49:07.530448'
+    - "\n                    A homicide detective discovers he is a descendant of
+      hunters who fight supernatural forces.\n            "
+    - 
+    - '2011-10-28'
+    - "\nDavid Giuntoli,             \nRussell Hornsby,             \nSilas Weir Mitchell
+      \           "
+    - "\nDavid Greenwalt            "
+    - "/title/tt1830617/"
+    - 
