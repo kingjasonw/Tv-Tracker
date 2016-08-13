@@ -1,7 +1,4 @@
-User.create!([
-  {email: "kingjason222@gmail.com", encrypted_password: "$2a$10$QDDo4g9wtRj7fNg9zW.zWe8or1nzk3olc0kcy2oTjnn2mZdl0e0tW", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 8, current_sign_in_at: "2016-08-07 15:35:56", last_sign_in_at: "2016-08-06 15:06:23", current_sign_in_ip: "::1", last_sign_in_ip: "::1", name: "Jason"},
-  {email: "kingjason22@comcast.net", encrypted_password: "$2a$10$rjYEeTPNmm54EbGrZvGakOC.BP.DINHOwzqr44S72uK1VL15/J.VW", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 2, current_sign_in_at: "2016-08-06 15:07:37", last_sign_in_at: "2016-07-30 17:23:43", current_sign_in_ip: "::1", last_sign_in_ip: "::1", name: "Jason"}
-])
+
 Episode.create!([
   {title: "Episode #7.1", episode_number: "S7, Ep1", description: "\n  Know what this is about?\n Be the first one to add a plot.\n    ", season_id: 2350, series_id: 1, season_episode_number: nil, air_date: nil, seasonno: nil, url: "/title/tt5654088/?ref_=ttep_ep1"},
   {title: "Episode #7.2", episode_number: "S7, Ep2", description: "\n  Know what this is about?\n Be the first one to add a plot.\n    ", season_id: 2350, series_id: 1, season_episode_number: nil, air_date: "2016-10-30", seasonno: nil, url: "/title/tt5655178/?ref_=ttep_ep2"},
@@ -4762,19 +4759,7 @@ Genre.create!([
   {genre: "War"},
   {genre: "Western"}
 ])
-List.create!([
-  {user_id: nil, series_id: 6},
-  {user_id: nil, series_id: 1},
-  {user_id: 1, series_id: 1},
-  {user_id: 1, series_id: 6},
-  {user_id: 2, series_id: nil},
-  {user_id: 2, series_id: 2},
-  {user_id: 2, series_id: 1},
-  {user_id: 2, series_id: 6},
-  {user_id: 2, series_id: 25},
-  {user_id: 1, series_id: 32},
-  {user_id: 1, series_id: 46}
-])
+
 Season.create!([
   {season_number: 7, desription: nil, series_id: 1, premiere: nil, url: "/title/tt0944947/episodes?season=7&ref_=tt_eps_sn_7"},
   {season_number: 6, desription: nil, series_id: 1, premiere: nil, url: "/title/tt0944947/episodes?season=6&ref_=tt_eps_sn_6"},
