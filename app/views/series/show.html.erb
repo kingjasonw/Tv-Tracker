@@ -3,11 +3,11 @@
 	  <%= @series.title %>
 	</h1>
 	<% if current_user && user_signed_in? %>
-		<div class="addSeries">
+		<div id="addSeries">
 			<% if @list.exists? %>
-			<%= button_to "Untrack", untrack_series_path(@series), :method => "delete", class: "btn btn-primary addSeries" %>
+				<h3><%= link_to "Untrack", untrack_series_path(@series), :method => "delete" %></h3>
 			<% else %>
-				<%= button_to "Track", track_series_path(@series), :method => "post", class: "btn btn-primary addSeries" %>
+				<h3><%= link_to "Track", track_series_path(@series), :method => "post" %></h3>
 			<% end %>
 		</div>
 	<% end %>
@@ -24,7 +24,7 @@
 		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 			<% @series.seasons.each do |season| %>
 
-				<div class="panel panel-default">
+				<div class="panel">
 				    <div class="panel-heading" role="tab" id="heading<%= season.season_number %>">
 				      <h4 class="panel-title">
 				        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<%= season.season_number %>" aria-expanded="false" aria-controls="collapse<%= season.season_number %>">

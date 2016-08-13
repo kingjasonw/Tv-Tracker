@@ -144,9 +144,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    seed_dump (3.2.4)
-      activerecord (>= 4)
-      activesupport (>= 4)
     spring (1.7.2)
     sprockets (3.7.0)
       concurrent-ruby (~> 1.0)
@@ -176,9 +173,6 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
-    yaml_db (0.4.0)
-      rails (>= 3.0, < 5.1)
-      rake (>= 0.8.7)
 
 PLATFORMS
   ruby
@@ -197,13 +191,11 @@ DEPENDENCIES
   rest-client
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
-  seed_dump
   spring
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
-  yaml_db
 
 BUNDLED WITH
    1.12.4

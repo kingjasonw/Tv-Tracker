@@ -1,13 +1,8 @@
 <div class="series">
 	
-	<h1>Series</h1>
-	
-	<div class="form-group">
-    	<%= form_tag("/series", method: "get", class: 'navbar-form', id: "search-form") do %>
-        	<%= text_field_tag :q, "", class: 'form-control search-query', id: "navbar-search-input", placeholder:'Search' %>
-            <%= button_tag '', class: 'btn btn-default' do %>
-            	<span class="glyphicon glyphicon-search"></span>
-        	<% end %>
+	<div class="form-group" id="series-search">
+    	<%= form_tag("/series", method: "get", class: "form-inline", id: "search-form") do %>
+        	<%= text_field_tag :q, "", class: 'form-control search-query', id: "series-search-input", placeholder:'Search' %>
         <% end %>
     </div>
 	<div class="row" id="seriesIndex">

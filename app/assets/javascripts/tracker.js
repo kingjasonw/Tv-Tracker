@@ -5,7 +5,7 @@ $(document).ready(function(){
 var ready;
 ready = (function() {
   $('a[href="' + this.location.pathname + '"]').parent().addClass('active');
-  $("#navbar-search-input").autocomplete({
+  $("#series-search-input").autocomplete({
     source: '/series/autocomplete.json',
   });
 });

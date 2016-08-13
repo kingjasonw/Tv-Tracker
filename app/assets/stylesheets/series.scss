@@ -4,17 +4,6 @@
 
 /* series index */
 
-.ui-autocomplete {
-    max-height: 100px;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-  
-  * html .ui-autocomplete {
-    height: 100px;
-  }
-
-
 .series {
 	text-align: center;
 	width: 60%;
@@ -32,10 +21,29 @@
 	height: 130px;
 }
 
+.seriesTitle h3 a {
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
+}
+
+#series-search-input {
+	background-color: #404041;
+	border: 2px solid #a7a9ab;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#ui-id-1 li {
+	background-color: #404041;
+	color: #ffffff;
+}
+
 /* series show */
 
 .seriesInfo h1 {
 	text-align: center;
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
 }
 
 #seriesDescription {
@@ -44,9 +52,19 @@
 	margin: auto;
 }
 
+#seriesDescription p {
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
+}
+
 #extraInfo {
 	width: 40%;
 	margin: auto;
+}
+
+#extraInfo p {
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
 }
 
 .seasonList {
@@ -55,7 +73,27 @@
 	text-align: center;
 }
 
-.addSeries input {
-	margin: 0 auto;
-	display: block;
+#addSeries {
+	text-align: center;
+}
+
+#addSeries a {
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
+}
+
+/* episodes accordion */ 
+
+#accordion .panel {
+	background-color: #404041;
+}
+
+#accordion .panel-title {
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
+}
+
+#accordion .panel-body h4, p {
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
 }
