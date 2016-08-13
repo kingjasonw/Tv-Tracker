@@ -2,13 +2,15 @@
 	<h1>
 	  <%= @series.title %>
 	</h1>
-	<div class="addSeries">
-		<% if @list.exists? %>
-		<%= button_to "Untrack", untrack_series_path(@series), :method => "delete", class: "btn btn-primary addSeries" %>
-		<% else %>
-			<%= button_to "Track", track_series_path(@series), :method => "post", class: "btn btn-primary addSeries" %>
-		<% end %>
-	</div>
+	<% if current_user && user.signed_in? %>
+		<div class="addSeries">
+			<% if @list.exists? %>
+			<%= button_to "Untrack", untrack_series_path(@series), :method => "delete", class: "btn btn-primary addSeries" %>
+			<% else %>
+				<%= button_to "Track", track_series_path(@series), :method => "post", class: "btn btn-primary addSeries" %>
+			<% end %>
+		</div>
+	<% end %>
 	<div id="seriesDescription">
 		<p><%= @series.description %></p>
 	</div>
