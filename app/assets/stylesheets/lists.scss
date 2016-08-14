@@ -1,3 +1,37 @@
 // Place all the styles related to the lists controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.listView {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	display: inline;
+}
+
+#seriesIndex {
+	margin-left: 10%;
+}
+
+.seriesGrid {
+	margin: 10px 10px 10px 10px;
+}
+
+.seriesTitle {
+	
+	border: 2px solid black;
+	height: 354px;
+	width: 186px;
+	margin: auto;
+}
+
+.seriesTitle h3 {
+	padding-top: 5px;
+	margin-top: 0;
+}
+
+.seriesTitle h3 a {
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
+	font-size: .9em;
+}

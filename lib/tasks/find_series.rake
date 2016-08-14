@@ -7,9 +7,9 @@ task :fetch_title => :environment do
  
 	url = "http://www.imdb.com/search/title?title_type=tv_series"
 	doc = Nokogiri::HTML(open(url))
-	doc.css("td.title").each do |row|
-		title = row.css("a")[0].text
-		url = row.css("a")[0]["href"]
+	doc.css("div.lister-item-content").each do |row|
+		title = row.css("h3 a").text
+		url = row.css("h3 a").attr('href').text
 		Series.create(:title => title, :url => url)
 	end
 end

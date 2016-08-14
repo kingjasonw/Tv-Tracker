@@ -11,7 +11,8 @@ task :fetch_info => :environment do
 		description = doc.css('div.summary_text').text
 		premiere = doc.css('div#titleDetails div.txt-block')[3].text
 		cast = doc.css('span[itemprop = "actors"]').text
+		poster = doc.css('img[itemprop = "image"]').attr('src').text
 		creator = doc.css('div.credit_summary_item span[itemprop = "creator"]').text
-		@series.update_attributes(:description => description, :premiere => premiere, :cast => cast, :creator => creator)
+		@series.update_attributes(:description => description, :premiere => premiere, :cast => cast, :poster => poster, :creator => creator)
 	end
 end

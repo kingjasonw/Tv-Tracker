@@ -46,6 +46,10 @@
 		</div>
 	</div>
 </div>
-<%= link_to 'Edit', edit_series_path(@series) %> |
-<%= link_to 'Back', series_index_path %>
+
+<% if current_user && current_user.admin? %>
+	<%= link_to 'Edit', edit_series_path(@series) %> |
+	<%= link_to 'Back', series_index_path %> |
+	<%= link_to 'Delete', @series, method: :delete, data: { confirm: 'Are you sure?' } %>
+<% end %>
 

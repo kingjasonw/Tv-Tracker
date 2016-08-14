@@ -1,15 +1,15 @@
-<h1>Listing Lists</h1>
+<div class="listView">
+	<h1>My List</h1>
 
-
+	<div class="row" id="seriesIndex">
     <% current_user.series.each do |series| %>
-
-	    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesTitle">
-	        <h3><%= link_to(series.title, series) %></h3>
-	    </div>
-      
+	    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesGrid">
+                <div class="seriesTitle">
+                    <%= link_to image_tag(series.poster), series %>
+       			    <h3><%= link_to(series.title, series) %></h3>
+                </div>
+        	</div>
     <% end %>
+</div>
   
-<br>
-
-
-<%= link_to 'New List', new_list_path %>
+</div>

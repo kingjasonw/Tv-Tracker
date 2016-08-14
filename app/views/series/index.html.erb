@@ -7,8 +7,11 @@
     </div>
 	<div class="row" id="seriesIndex">
     	<% @series.each do |series| %>
-    		<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesTitle">
-       			<h3><%= link_to(series.title, series) %></h3>
+    		<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesGrid">
+                <div class="seriesTitle">
+                    <%= link_to image_tag(series.poster), series %>
+       			    <h3><%= link_to(series.title, series) %></h3>
+                </div>
         	</div>
     	<% end %>
 	</div>
