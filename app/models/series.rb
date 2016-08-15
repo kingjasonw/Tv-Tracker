@@ -1,6 +1,6 @@
 class Series < ActiveRecord::Base
-	validates :title, uniqueness: true
 	after_create :update_info
+	validates_uniqueness_of :title, :case_sensitive => false
 
 	require 'rubygems'
     require 'nokogiri'
@@ -22,15 +22,15 @@ class Series < ActiveRecord::Base
 	    url = ("http://www.imdb.com/find?q="+series_title+"&s=tt&ttype=tv&ref_=fn_tv")
 	    doc = Nokogiri::HTML(open(url))
 	    series_url = doc.css(".result_text")[0].css('a').attr('href').text
-	    self.update_attributes(:url => series_url)
+	    title = doc.css(".result_text")[0].css('a').text
+	    self.update_attributes(:url => series_url, :title => title)
 	    info_url = ("http://www.imdb.com/"+self.url)
 	    info = Nokogiri::HTML(open(info_url))
-	    title = info.css('h1[itemprop = "name"]').text
 	    description = info.css('div.summary_text').text
 	    cast = info.css('span[itemprop = "actors"]').text
 	    poster = info.css('img[itemprop = "image"]').attr('src').text
 	    creator = info.css('div.credit_summary_item span[itemprop = "creator"]').text
-	    self.update_attributes(:title => title, :description => description, :premiere => premiere, :cast => cast, :poster => poster, :creator => creator)
+	    self.update_attributes(:description => description, :premiere => premiere, :cast => cast, :poster => poster, :creator => creator)
 	end
 	
 end

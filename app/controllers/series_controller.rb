@@ -78,10 +78,10 @@ end
     @series = Series.new(series_params)
     respond_to do |format|
       if @series.save
-        format.html { redirect_to series_index_url, notice: 'Series was successfully created.' }
+        format.html { redirect_to @series, notice: 'Series was successfully created.' }
         format.json { render :show, status: :created, location: @series }
       else
-        format.html { render :new }
+        format.html { render :new, notice: 'Series already exits!' }
         format.json { render json: @series.errors, status: :unprocessable_entity }
       end
     end
