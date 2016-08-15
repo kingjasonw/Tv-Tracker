@@ -9,7 +9,6 @@ task :fetch_info => :environment do
 		page = ("http://www.imdb.com"+@series.url)
 		doc = Nokogiri::HTML(open(page))
 		description = doc.css('div.summary_text').text
-		premiere = doc.css('div#titleDetails div.txt-block')[3].text
 		cast = doc.css('span[itemprop = "actors"]').text
 		poster = doc.css('img[itemprop = "image"]').attr('src').text
 		creator = doc.css('div.credit_summary_item span[itemprop = "creator"]').text

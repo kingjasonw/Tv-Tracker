@@ -33,12 +33,11 @@ class SeriesController < ApplicationController
         @series = Series.where("title LIKE ?", "%#{search_term}%")
       else
         @series = Series.where("title ilike ?", "%#{search_term}%")
-      #return our filtered list here
-    end
+      end
     else
-      @series = Series.all
+      @series = Series.all.paginate(:page => params[:page], :per_page => 50)
     end
-    respond_with @series
+    
   end
 
   def autocomplete
@@ -59,6 +58,11 @@ end
       @list = List.where(user_id: current_user.id, series_id: @series.id)
     else
     end
+  end
+
+  def next_episode
+    @season = series.season
+    @episode = season.episodes.where("air_date >= ?", Date.today).order(air_date: :asc).first
   end
 
   # GET /series/new
@@ -120,6 +124,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def series_params
-      params.require(:series).permit(:title, :description, :network, :premiere, :cast, :creator, :genre_id)
+      params.require(:series).permit(:title, :description, :network, :premiere, :cast, :creator, :genre_id, :poster)
     end
 end

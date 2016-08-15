@@ -1,4 +1,7 @@
 <div class="seriesInfo">
+	<div id="poster">
+		<img src="<%= @series.poster %>">
+	</div>
 	<h1>
 	  <%= @series.title %>
 	</h1>
@@ -16,7 +19,7 @@
 	</div>
 	<div id="extraInfo">
 		<p><strong>Created by:</strong> <%= @series.creator %></p>
-		<p><strong>Premiere:</strong> <%= @series.premiere %></p>
+		<p><strong>Next Episode:</strong></p>
 		<p><strong>Cast:</strong> <%= @series.cast %></p>
 	</div>
 

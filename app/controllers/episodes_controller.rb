@@ -4,7 +4,7 @@ class EpisodesController < ApplicationController
   # GET /episodes
   # GET /episodes.json
   def index
-    @episodes = Episode.order('air_date DESC')
+    @episodes = Episode.all
   end
 
   # GET /episodes/1

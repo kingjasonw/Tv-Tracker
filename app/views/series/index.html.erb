@@ -16,8 +16,16 @@
     	<% end %>
 	</div>
 	<br>
-
-	<%= link_to 'New Series', new_series_path %>
+    <% if params[:q] %>
+    <% else %>
+        <div class="apple_pagination"> 
+            <%= will_paginate @series %>
+        </div>
+    <% end %>
+    <br>
+    <% if current_user && current_user.admin? %>
+	   <%= link_to 'New Series', new_series_path %>
+    <% end %>
 </div>
 
 
