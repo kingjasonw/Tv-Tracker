@@ -60,10 +60,7 @@ end
     end
   end
 
-  def next_episode
-    @season = series.season
-    @episode = season.episodes.where("air_date >= ?", Date.today).order(air_date: :asc).first
-  end
+  
 
   # GET /series/new
   def new
@@ -79,7 +76,6 @@ end
   # POST /series.json
   def create
     @series = Series.new(series_params)
-
     respond_to do |format|
       if @series.save
         format.html { redirect_to series_index_url, notice: 'Series was successfully created.' }
@@ -124,6 +120,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def series_params
-      params.require(:series).permit(:title, :description, :network, :premiere, :cast, :creator, :genre_id, :poster)
+      params.require(:series).permit(:title, :description, :network, :premiere, :cast, :creator, :genre_id, :poster, :url)
     end
 end

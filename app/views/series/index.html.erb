@@ -5,6 +5,9 @@
         	<%= text_field_tag :q, "", class: 'form-control search-query', id: "series-search-input", placeholder:'Search' %>
         <% end %>
     </div>
+    <div id="new-series">
+        <p>Don't see what you're looking for? <%= link_to 'Add a new series', new_series_path %></p>
+    </div>
 	<div class="row" id="seriesIndex">
     	<% @series.each do |series| %>
     		<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesGrid">
@@ -22,10 +25,8 @@
             <%= will_paginate @series %>
         </div>
     <% end %>
-    <br>
-    <% if current_user && current_user.admin? %>
-	   <%= link_to 'New Series', new_series_path %>
-    <% end %>
+	   
+    
 </div>
 
 

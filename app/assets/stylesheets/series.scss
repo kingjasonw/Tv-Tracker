@@ -11,6 +11,38 @@
 	display: inline;
 }
 
+.series h1 {
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
+}
+
+.series label {
+	font-family: 'Bungee Hairline', cursive;
+	color: #ffffff;
+}
+
+#new_series {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#series_title {
+	background-color: #404041;
+	border: 2px solid #a7a9ab;
+	border-radius: 10px;
+	text-align: center;
+	color: #a7a9ab;
+}
+
+#submit {
+	background-color: #404041;
+	border: 2px solid #a7a9ab;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Bungee Hairline', cursive;
+	color: #a7a9ab;
+}
+
 #seriesIndex {
 	margin-left: 10%;
 }
@@ -20,7 +52,6 @@
 }
 
 .seriesTitle {
-	
 	border: 2px solid black;
 	height: 354px;
 	width: 186px;
