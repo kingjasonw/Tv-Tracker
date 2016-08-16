@@ -12,7 +12,6 @@ Rails.application.routes.draw do
     end
     collection do 
       get 'autocomplete'
-      get 'next_episode'
     end
   end
   

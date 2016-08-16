@@ -1,5 +1,5 @@
 class Series < ActiveRecord::Base
-	after_create :update_info
+	after_create :update_info, :find_seasons
 	validates_uniqueness_of :title, :case_sensitive => false
 
 	require 'rubygems'
@@ -31,6 +31,17 @@ class Series < ActiveRecord::Base
 	    poster = info.css('img[itemprop = "image"]').attr('src').text
 	    creator = info.css('div.credit_summary_item span[itemprop = "creator"]').text
 	    self.update_attributes(:description => description, :premiere => premiere, :cast => cast, :poster => poster, :creator => creator)
+	end
+
+	def find_seasons
+		series_url = self.url
+		series_id = self.id
+		page = ("http://www.imdb.com"+series_url)
+		doc = Nokogiri::HTML(open(page))
+		doc.css('div.seasons-and-year-nav div')[2].css('a').each do |seasonlist|
+			season_url = seasonlist['href']
+			Season.create(:season_number => seasonlist.text, :url => season_url, :series_id => series_id)
+		end
 	end
 	
 end

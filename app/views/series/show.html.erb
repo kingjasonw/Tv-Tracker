@@ -18,12 +18,13 @@
 		<p><%= @series.description %></p>
 	</div>
 	<div id="extraInfo">
+		<p><strong>Cast:</strong> <%= @series.cast %></p>
 		<% if @series.creator === "" %>
 		<% else %>
 			<p><strong>Created by:</strong> <%= @series.creator %></p>
 		<% end %>
 		<p><strong>Next Episode:</strong></p>
-		<p><strong>Cast:</strong> <%= @series.cast %></p>
+		<p><strong>Last Episode:</strong></p>
 	</div>
 
 	<div class="seasonList">

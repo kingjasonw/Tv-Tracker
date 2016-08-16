@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160814160138) do
+ActiveRecord::Schema.define(version: 20160816145643) do
 
   create_table "episodes", force: :cascade do |t|
     t.string   "title"
@@ -23,8 +23,6 @@ ActiveRecord::Schema.define(version: 20160814160138) do
     t.integer  "series_id"
     t.integer  "season_episode_number"
     t.date     "air_date"
-    t.integer  "seasonno"
-    t.string   "url"
   end
 
   add_index "episodes", ["season_id"], name: "index_episodes_on_season_id"
@@ -65,10 +63,13 @@ ActiveRecord::Schema.define(version: 20160814160138) do
     t.date     "premiere"
     t.string   "cast"
     t.string   "creator"
+    t.integer  "genre_id"
     t.string   "url"
     t.integer  "seasonsno"
     t.string   "poster"
   end
+
+  add_index "series", ["genre_id"], name: "index_series_on_genre_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "",    null: false
