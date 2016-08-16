@@ -30,7 +30,7 @@
 	<div class="seasonList">
 		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 			<% @series.seasons.each do |season| %>
-
+			
 				<div class="panel">
 				    <div class="panel-heading" role="tab" id="heading<%= season.season_number %>">
 				      <h4 class="panel-title">
@@ -41,15 +41,20 @@
 				    </div>
 				    <div id="collapse<%= season.season_number %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<%= season.season_number %>">
 				      <div class="panel-body">
-				      	<% season.episodes.each do |episode| %>
-							<h4><%= episode.title %></h4>
-							<p><%= episode.description %></p>
-							<p><strong>Air Date:</strong> <%= episode.air_date %></p>
+				      	<% if season.episodes.exists? %>
+					      	<% season.episodes.each do |episode| %>
+								<h4><%= episode.title %></h4>
+								<p><%= episode.description %></p>
+								<p><strong>Air Date:</strong> <%= episode.air_date %></p>
+							<% end %>
+						<% else %>
+							<h4>Season confirmed but no episode information exists yet.</h4>
 						<% end %>
 				      </div>
 					</div>
 			  	</div>
 			<% end %>
+			
 		</div>
 	</div>
 </div>
