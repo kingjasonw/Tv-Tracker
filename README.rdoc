@@ -1,28 +1,17 @@
-== README
+Tv-Tracker allows user to follow and keep track of their favorite television series.
+Users can add series to the database, by entering the title, the app will then automatically scrape series, season, and episode info from Imdb.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+currently live at https://seriesscraper.herokuapp.com/
 
-Things you may want to cover:
+rails version: 4.2.4
+ruby version: 2.2.1
 
-* Ruby version
+to use locally: clone repository
+                - rake db:create
+                - rake db:migrate
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To-do: -display previous and next episodes
+      - mark current season
+      - email alerts when new episode is airing
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
