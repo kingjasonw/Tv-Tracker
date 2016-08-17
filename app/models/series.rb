@@ -1,6 +1,7 @@
 class Series < ActiveRecord::Base
 	after_create :update_info, :find_seasons
 	validates_uniqueness_of :title, :case_sensitive => false
+	
 
 	require 'rubygems'
     require 'nokogiri'
@@ -46,11 +47,17 @@ class Series < ActiveRecord::Base
 
 	def next_episode
 		@series = self
-		next_episode = Episode.where(:series_id => @series.id).where("air_date >=?", Date.today).first
+		next_episode = Episode.where(:series_id => @series.id).where("air_date >= ?", Date.today).reverse.first
+		if next_episode
+			next_episode = next_episode
+		else
+			next_episode = Episode.where(:series_id => @series.id).first
+		end
 	end
 
 	def previous_episode
 		@series = self
-    	previous_episode = Episode.where(:series_id => @series.id).where("air_date <=?", Date.today).first
-	end
+    	previous_episode = Episode.where(:series_id => @series.id).where("air_date < ?", Date.today).first
+    end
+
 end

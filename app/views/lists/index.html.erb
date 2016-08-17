@@ -2,16 +2,16 @@
 	<h1>My List</h1>
 
 	<div class="row" id="seriesIndex">
-    <% current_user.series.each do |series| %>
+    <% current_user.series.sort_by(&:next_episode).each do |series| %>
 	    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesGrid">
                 <div class="seriesTitle">
                     <%= link_to image_tag(series.poster), series %>
        			    <h3><%= link_to(series.title, series) %></h3>
                     <p><strong>Next Episode:</strong>
-                        <% if @next_episode %>
-                            <%= series.next_episode.air_date %> <%= series.next_episode.title %>
-                        <% else %>
+                        <% if series.next_episode === series.previous_episode %>
                             TBA
+                        <% else %>
+                            <%= series.next_episode.air_date %> <%= series.next_episode.title %>
                         <% end %>
                     </p>
                     <p><strong>Last Episode:</strong><%= series.previous_episode.air_date %> <%= series.previous_episode.title %></p>

@@ -9,22 +9,7 @@
         <p>Don't see what you're looking for? <%= link_to 'Add a new series', new_series_path %></p>
     </div>
 	<div class="row" id="seriesIndex">
-    	<% @series.each do |series| %>
-    		<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 seriesGrid">
-                <div class="seriesTitle">
-                    <%= link_to image_tag(series.poster), series %>
-       			    <h3><%= link_to(series.title, series) %></h3>
-                    <p><strong>Next Episode:</strong>
-                        <% if @next_episode %>
-                            <%= series.next_episode.air_date %> <%= series.next_episode.title %>
-                        <% else %>
-                            TBA
-                        <% end %>
-                    </p>
-                    <p><strong>Last Episode:</strong><%= series.previous_episode.air_date %> <%= series.previous_episode.title %></p>
-                </div>
-        	</div>
-    	<% end %>
+    	<%= render @series %>
 	</div>
 	<br>
     <% if params[:q] %>
