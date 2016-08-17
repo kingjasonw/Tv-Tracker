@@ -37,7 +37,6 @@ class SeriesController < ApplicationController
     else
       @series = Series.all.paginate(:page => params[:page], :per_page => 50)
     end
-    
   end
 
   def autocomplete

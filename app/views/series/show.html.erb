@@ -23,8 +23,14 @@
 		<% else %>
 			<p><strong>Created by:</strong> <%= @series.creator %></p>
 		<% end %>
-		<p><strong>Next Episode:</strong></p>
-		<p><strong>Last Episode:</strong></p>
+		<p><strong>Next Episode:</strong>
+			<% if @next_episode %>
+				<%= @series.next_episode.air_date %> <%= @series.next_episode.title %>
+			<% else %>
+				TBA
+				<% end %>
+			</p>
+		<p><strong>Last Episode:</strong><%= @series.previous_episode.air_date %> <%= @series.previous_episode.title %></p>
 	</div>
 
 	<div class="seasonList">

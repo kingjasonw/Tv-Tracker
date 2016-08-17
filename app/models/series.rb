@@ -43,5 +43,14 @@ class Series < ActiveRecord::Base
 			Season.create(:season_number => seasonlist.text, :url => season_url, :series_id => series_id)
 		end
 	end
-	
+
+	def next_episode
+		@series = self
+		next_episode = Episode.where(:series_id => @series.id).where("air_date >=?", Date.today).first
+	end
+
+	def previous_episode
+		@series = self
+    	previous_episode = Episode.where(:series_id => @series.id).where("air_date <=?", Date.today).first
+	end
 end

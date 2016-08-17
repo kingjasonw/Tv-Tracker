@@ -14,6 +14,6 @@ rake db:migrate
 ```
 
 **To-do:**
-- [ ] display previous and next episodes
+- [x] display previous and next episodes
 - [ ] mark current season
 - [ ] email alerts when new episode is airing
