@@ -15,7 +15,7 @@
     <% @seasons.each do |season| %>
       <tr>
         <td><%= season.season_number %></td>
-        <td><%= season.desription %></td>
+        <td><%= season.description %></td>
         <td><%= link_to 'Show', season %></td>
         <td><%= link_to 'Edit', edit_season_path(season) %></td>
         <td><%= link_to 'Destroy', season, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -51,7 +51,7 @@ class Series < ActiveRecord::Base
 		if next_episode
 			next_episode = next_episode
 		else
-			next_episode = Episode.where(:series_id => @series.id).first
+			previous_episode = Episode.where(:series_id => @series.id).where("air_date < ?", Date.today).first
 		end
 	end
 
