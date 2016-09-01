@@ -17,6 +17,6 @@
         <%= f.text_field :title, class: 'form-control' %>
       </div>
       <div class="form-group">
-        <%= f.submit  "Find Info", id: 'submit' %>
+        <%= f.submit  "Find Info", id: 'submit', data: { disable_with: "Finding Info" } %>
       </div>
   <% end %>
